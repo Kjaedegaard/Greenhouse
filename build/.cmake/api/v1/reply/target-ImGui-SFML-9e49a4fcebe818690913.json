@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/imgui-sfml/libImGui-SFML_d.dll"
+			"path" : "libs/imgui-sfml/libImGui-SFML.dll"
 		},
 		{
-			"path" : "libs/imgui-sfml/libImGui-SFML_d.dll.a"
+			"path" : "libs/imgui-sfml/libImGui-SFML.dll.a"
 		},
 		{
-			"path" : "libs/imgui-sfml/libImGui-SFML_d.pdb"
+			"path" : "libs/imgui-sfml/libImGui-SFML.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -78,12 +78,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"defines" : 
 			[
 				{
@@ -102,15 +96,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/imgui"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/imgui"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/imgui-sfml"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/imgui-sfml"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
 				}
 			],
 			"language" : "CXX",
@@ -133,11 +127,11 @@
 		},
 		{
 			"backtrace" : 3,
-			"id" : "sfml-window::@b3059e65f89605c2b3d3"
+			"id" : "sfml-graphics::@a0e6144642577840cf67"
 		},
 		{
 			"backtrace" : 3,
-			"id" : "sfml-graphics::@a0e6144642577840cf67"
+			"id" : "sfml-window::@b3059e65f89605c2b3d3"
 		}
 	],
 	"id" : "ImGui-SFML::@fc265e6b6c96c32461a1",
@@ -169,12 +163,12 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\SFML\\lib\\libsfml-graphics-d.a",
+				"fragment" : "..\\SFML\\lib\\libsfml-graphics.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\SFML\\lib\\libsfml-window-d.a",
+				"fragment" : "..\\SFML\\lib\\libsfml-window.a",
 				"role" : "libraries"
 			},
 			{
@@ -194,7 +188,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\SFML\\lib\\libsfml-system-d.a",
+				"fragment" : "..\\SFML\\lib\\libsfml-system.a",
 				"role" : "libraries"
 			},
 			{
@@ -205,7 +199,7 @@
 		"language" : "CXX"
 	},
 	"name" : "ImGui-SFML",
-	"nameOnDisk" : "libImGui-SFML_d.dll",
+	"nameOnDisk" : "libImGui-SFML.dll",
 	"paths" : 
 	{
 		"build" : "libs/imgui-sfml",

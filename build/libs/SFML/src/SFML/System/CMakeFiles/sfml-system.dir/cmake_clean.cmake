@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "../../../lib/libsfml-system-d.a"
-  "../../../lib/sfml-system-d-2.dll"
-  "../../../lib/sfml-system-d-2.dll.manifest"
-  "../../../lib/sfml-system-d.pdb"
+  "../../../lib/libsfml-system.a"
+  "../../../lib/sfml-system-2.dll"
+  "../../../lib/sfml-system-2.dll.manifest"
+  "../../../lib/sfml-system.pdb"
   "CMakeFiles/sfml-system.dir/Clock.cpp.obj"
   "CMakeFiles/sfml-system.dir/Clock.cpp.obj.d"
   "CMakeFiles/sfml-system.dir/Err.cpp.obj"
@@ -35,9 +35,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj.d"
   "CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj"
   "CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj.d"
+  "CMakeFiles/sfml-system.dir/sfml-system.rc.obj"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/sfml-system.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

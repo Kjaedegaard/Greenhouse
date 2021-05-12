@@ -1,14 +1,18 @@
 file(REMOVE_RECURSE
-  "../../../lib/libsfml-window-d.a"
-  "../../../lib/sfml-window-d-2.dll"
-  "../../../lib/sfml-window-d-2.dll.manifest"
-  "../../../lib/sfml-window-d.pdb"
+  "../../../lib/libsfml-window.a"
+  "../../../lib/sfml-window-2.dll"
+  "../../../lib/sfml-window-2.dll.manifest"
+  "../../../lib/sfml-window.pdb"
   "CMakeFiles/sfml-window.dir/Clipboard.cpp.obj"
   "CMakeFiles/sfml-window.dir/Clipboard.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/Context.cpp.obj"
   "CMakeFiles/sfml-window.dir/Context.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/Cursor.cpp.obj"
   "CMakeFiles/sfml-window.dir/Cursor.cpp.obj.d"
+  "CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj"
+  "CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj.d"
+  "CMakeFiles/sfml-window.dir/EglContext.cpp.obj"
+  "CMakeFiles/sfml-window.dir/EglContext.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/GlContext.cpp.obj"
   "CMakeFiles/sfml-window.dir/GlContext.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/GlResource.cpp.obj"
@@ -29,6 +33,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-window.dir/Touch.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/VideoMode.cpp.obj"
   "CMakeFiles/sfml-window.dir/VideoMode.cpp.obj.d"
+  "CMakeFiles/sfml-window.dir/Vulkan.cpp.obj"
+  "CMakeFiles/sfml-window.dir/Vulkan.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj"
   "CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj"
@@ -41,19 +47,22 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj"
   "CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj.d"
+  "CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj"
+  "CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj"
   "CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj.d"
-  "CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj"
-  "CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj"
   "CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/Window.cpp.obj"
   "CMakeFiles/sfml-window.dir/Window.cpp.obj.d"
+  "CMakeFiles/sfml-window.dir/WindowBase.cpp.obj"
+  "CMakeFiles/sfml-window.dir/WindowBase.cpp.obj.d"
   "CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj"
   "CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj.d"
+  "CMakeFiles/sfml-window.dir/sfml-window.rc.obj"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/sfml-window.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/SFML/lib/sfml-system-d-2.dll"
+			"path" : "libs/SFML/lib/sfml-system-2.dll"
 		},
 		{
-			"path" : "libs/SFML/lib/libsfml-system-d.a"
+			"path" : "libs/SFML/lib/libsfml-system.a"
 		},
 		{
-			"path" : "libs/SFML/lib/sfml-system-d.pdb"
+			"path" : "libs/SFML/lib/sfml-system.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -20,7 +20,8 @@
 			"sfml_add_library",
 			"install",
 			"target_link_libraries",
-			"target_include_directories"
+			"target_include_directories",
+			"target_sources"
 		],
 		"files" : 
 		[
@@ -41,25 +42,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 46,
+				"line" : 63,
 				"parent" : 1
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 161,
+				"line" : 197,
 				"parent" : 1
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 99,
+				"line" : 104,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 168,
+				"line" : 204,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 95,
 				"parent" : 1
 			}
 		]
@@ -67,12 +74,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"defines" : 
 			[
 				{
@@ -83,11 +84,11 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src"
 				}
 			],
 			"language" : "CXX",
@@ -109,6 +110,30 @@
 				40,
 				42,
 				44
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"define" : "SFML_SYSTEM_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				46
 			]
 		}
 	],
@@ -156,7 +181,7 @@
 		"language" : "CXX"
 	},
 	"name" : "sfml-system",
-	"nameOnDisk" : "sfml-system-d-2.dll",
+	"nameOnDisk" : "sfml-system-2.dll",
 	"paths" : 
 	{
 		"build" : "libs/SFML/src/SFML/System",
@@ -203,7 +228,8 @@
 				32,
 				33,
 				34,
-				35
+				35,
+				46
 			]
 		},
 		{
@@ -470,6 +496,12 @@
 			"backtrace" : 2,
 			"path" : "libs/SFML/src/SFML/System/Win32/ThreadLocalImpl.hpp",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/libs/SFML/src/SFML/System/sfml-system.rc",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "SHARED_LIBRARY"

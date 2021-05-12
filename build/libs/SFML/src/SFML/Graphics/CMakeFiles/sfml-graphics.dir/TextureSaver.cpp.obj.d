@@ -1,24 +1,18 @@
 libs/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.obj: \
- C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Graphics\TextureSaver.cpp \
- C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src/SFML/Graphics/TextureSaver.hpp \
- C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src/SFML/Graphics/GLCheck.hpp \
- C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include/SFML/Config.hpp \
- C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src/SFML/Graphics/GLExtensions.hpp \
- C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src/SFML/Graphics/GLLoader.hpp \
- c:\mingw\include\windows.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
- c:\mingw\include\windef.h c:\mingw\include\w32api.h \
- c:\mingw\include\sdkddkver.h c:\mingw\include\winnt.h \
- c:\mingw\include\winerror.h c:\mingw\include\string.h \
- c:\mingw\include\_mingw.h c:\mingw\include\msvcrtver.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
- c:\mingw\include\strings.h c:\mingw\include\wchar.h \
- c:\mingw\include\basetsd.h c:\mingw\include\pshpack4.h \
- c:\mingw\include\poppack.h c:\mingw\include\wincon.h \
- c:\mingw\include\winbase.h c:\mingw\include\wingdi.h \
- c:\mingw\include\winuser.h c:\mingw\include\dbt.h \
- c:\mingw\include\winnls.h c:\mingw\include\winver.h \
- c:\mingw\include\winnetwk.h c:\mingw\include\winreg.h \
- c:\mingw\include\winsvc.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdint.h \
- c:\mingw\include\stdint.h
+ C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Graphics\TextureSaver.cpp \
+ C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src/SFML/Graphics/TextureSaver.hpp \
+ C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src/SFML/Graphics/GLCheck.hpp \
+ C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include/SFML/Config.hpp \
+ C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src/SFML/Graphics/GLExtensions.hpp \
+ C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/glad/include/glad/gl.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/x86_64-w64-mingw32/include/stddef.h

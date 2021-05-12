@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "../../../lib/libsfml-network-d.a"
-  "../../../lib/sfml-network-d-2.dll"
-  "../../../lib/sfml-network-d-2.dll.manifest"
-  "../../../lib/sfml-network-d.pdb"
+  "../../../lib/libsfml-network.a"
+  "../../../lib/sfml-network-2.dll"
+  "../../../lib/sfml-network-2.dll.manifest"
+  "../../../lib/sfml-network.pdb"
   "CMakeFiles/sfml-network.dir/Ftp.cpp.obj"
   "CMakeFiles/sfml-network.dir/Ftp.cpp.obj.d"
   "CMakeFiles/sfml-network.dir/Http.cpp.obj"
@@ -23,9 +23,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-network.dir/UdpSocket.cpp.obj.d"
   "CMakeFiles/sfml-network.dir/Win32/SocketImpl.cpp.obj"
   "CMakeFiles/sfml-network.dir/Win32/SocketImpl.cpp.obj.d"
+  "CMakeFiles/sfml-network.dir/sfml-network.rc.obj"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/sfml-network.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

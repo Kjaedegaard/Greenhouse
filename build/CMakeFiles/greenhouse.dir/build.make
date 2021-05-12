@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode
+CMAKE_SOURCE_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build
+CMAKE_BINARY_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/greenhouse.dir/depend.make
@@ -72,181 +72,181 @@ CMakeFiles/greenhouse.dir/src/greenhouse.cpp.obj: CMakeFiles/greenhouse.dir/flag
 CMakeFiles/greenhouse.dir/src/greenhouse.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/greenhouse.cpp.obj: ../src/greenhouse.cpp
 CMakeFiles/greenhouse.dir/src/greenhouse.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/greenhouse.dir/src/greenhouse.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/greenhouse.cpp.obj -MF CMakeFiles\greenhouse.dir\src\greenhouse.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\greenhouse.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\greenhouse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/greenhouse.dir/src/greenhouse.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/greenhouse.cpp.obj -MF CMakeFiles\greenhouse.dir\src\greenhouse.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\greenhouse.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\greenhouse.cpp
 
 CMakeFiles/greenhouse.dir/src/greenhouse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/greenhouse.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\greenhouse.cpp > CMakeFiles\greenhouse.dir\src\greenhouse.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\greenhouse.cpp > CMakeFiles\greenhouse.dir\src\greenhouse.cpp.i
 
 CMakeFiles/greenhouse.dir/src/greenhouse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/greenhouse.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\greenhouse.cpp -o CMakeFiles\greenhouse.dir\src\greenhouse.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\greenhouse.cpp -o CMakeFiles\greenhouse.dir\src\greenhouse.cpp.s
 
 CMakeFiles/greenhouse.dir/src/regulator.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/regulator.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/regulator.cpp.obj: ../src/regulator.cpp
 CMakeFiles/greenhouse.dir/src/regulator.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/greenhouse.dir/src/regulator.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/regulator.cpp.obj -MF CMakeFiles\greenhouse.dir\src\regulator.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\regulator.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\regulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/greenhouse.dir/src/regulator.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/regulator.cpp.obj -MF CMakeFiles\greenhouse.dir\src\regulator.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\regulator.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\regulator.cpp
 
 CMakeFiles/greenhouse.dir/src/regulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/regulator.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\regulator.cpp > CMakeFiles\greenhouse.dir\src\regulator.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\regulator.cpp > CMakeFiles\greenhouse.dir\src\regulator.cpp.i
 
 CMakeFiles/greenhouse.dir/src/regulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/regulator.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\regulator.cpp -o CMakeFiles\greenhouse.dir\src\regulator.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\regulator.cpp -o CMakeFiles\greenhouse.dir\src\regulator.cpp.s
 
 CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.obj: ../src/sensor_sim.cpp
 CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.obj -MF CMakeFiles\greenhouse.dir\src\sensor_sim.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\sensor_sim.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\sensor_sim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.obj -MF CMakeFiles\greenhouse.dir\src\sensor_sim.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\sensor_sim.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\sensor_sim.cpp
 
 CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\sensor_sim.cpp > CMakeFiles\greenhouse.dir\src\sensor_sim.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\sensor_sim.cpp > CMakeFiles\greenhouse.dir\src\sensor_sim.cpp.i
 
 CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/sensor_sim.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\sensor_sim.cpp -o CMakeFiles\greenhouse.dir\src\sensor_sim.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\sensor_sim.cpp -o CMakeFiles\greenhouse.dir\src\sensor_sim.cpp.s
 
 CMakeFiles/greenhouse.dir/src/plant.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/plant.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/plant.cpp.obj: ../src/plant.cpp
 CMakeFiles/greenhouse.dir/src/plant.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/greenhouse.dir/src/plant.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/plant.cpp.obj -MF CMakeFiles\greenhouse.dir\src\plant.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\plant.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\plant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/greenhouse.dir/src/plant.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/plant.cpp.obj -MF CMakeFiles\greenhouse.dir\src\plant.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\plant.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\plant.cpp
 
 CMakeFiles/greenhouse.dir/src/plant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/plant.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\plant.cpp > CMakeFiles\greenhouse.dir\src\plant.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\plant.cpp > CMakeFiles\greenhouse.dir\src\plant.cpp.i
 
 CMakeFiles/greenhouse.dir/src/plant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/plant.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\plant.cpp -o CMakeFiles\greenhouse.dir\src\plant.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\plant.cpp -o CMakeFiles\greenhouse.dir\src\plant.cpp.s
 
 CMakeFiles/greenhouse.dir/src/diagram.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/diagram.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/diagram.cpp.obj: ../src/diagram.cpp
 CMakeFiles/greenhouse.dir/src/diagram.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/greenhouse.dir/src/diagram.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/diagram.cpp.obj -MF CMakeFiles\greenhouse.dir\src\diagram.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\diagram.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\diagram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/greenhouse.dir/src/diagram.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/diagram.cpp.obj -MF CMakeFiles\greenhouse.dir\src\diagram.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\diagram.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\diagram.cpp
 
 CMakeFiles/greenhouse.dir/src/diagram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/diagram.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\diagram.cpp > CMakeFiles\greenhouse.dir\src\diagram.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\diagram.cpp > CMakeFiles\greenhouse.dir\src\diagram.cpp.i
 
 CMakeFiles/greenhouse.dir/src/diagram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/diagram.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\diagram.cpp -o CMakeFiles\greenhouse.dir\src\diagram.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\diagram.cpp -o CMakeFiles\greenhouse.dir\src\diagram.cpp.s
 
 CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.obj: ../src/tomato_plant.cpp
 CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.obj -MF CMakeFiles\greenhouse.dir\src\tomato_plant.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\tomato_plant.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\tomato_plant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.obj -MF CMakeFiles\greenhouse.dir\src\tomato_plant.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\tomato_plant.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\tomato_plant.cpp
 
 CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\tomato_plant.cpp > CMakeFiles\greenhouse.dir\src\tomato_plant.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\tomato_plant.cpp > CMakeFiles\greenhouse.dir\src\tomato_plant.cpp.i
 
 CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/tomato_plant.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\tomato_plant.cpp -o CMakeFiles\greenhouse.dir\src\tomato_plant.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\tomato_plant.cpp -o CMakeFiles\greenhouse.dir\src\tomato_plant.cpp.s
 
 CMakeFiles/greenhouse.dir/src/tomato.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/tomato.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/tomato.cpp.obj: ../src/tomato.cpp
 CMakeFiles/greenhouse.dir/src/tomato.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/greenhouse.dir/src/tomato.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/tomato.cpp.obj -MF CMakeFiles\greenhouse.dir\src\tomato.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\tomato.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\tomato.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/greenhouse.dir/src/tomato.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/tomato.cpp.obj -MF CMakeFiles\greenhouse.dir\src\tomato.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\tomato.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\tomato.cpp
 
 CMakeFiles/greenhouse.dir/src/tomato.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/tomato.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\tomato.cpp > CMakeFiles\greenhouse.dir\src\tomato.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\tomato.cpp > CMakeFiles\greenhouse.dir\src\tomato.cpp.i
 
 CMakeFiles/greenhouse.dir/src/tomato.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/tomato.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\tomato.cpp -o CMakeFiles\greenhouse.dir\src\tomato.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\tomato.cpp -o CMakeFiles\greenhouse.dir\src\tomato.cpp.s
 
 CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.obj: ../src/tomato_branch.cpp
 CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.obj -MF CMakeFiles\greenhouse.dir\src\tomato_branch.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\tomato_branch.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\tomato_branch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.obj -MF CMakeFiles\greenhouse.dir\src\tomato_branch.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\tomato_branch.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\tomato_branch.cpp
 
 CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\tomato_branch.cpp > CMakeFiles\greenhouse.dir\src\tomato_branch.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\tomato_branch.cpp > CMakeFiles\greenhouse.dir\src\tomato_branch.cpp.i
 
 CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/tomato_branch.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\tomato_branch.cpp -o CMakeFiles\greenhouse.dir\src\tomato_branch.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\tomato_branch.cpp -o CMakeFiles\greenhouse.dir\src\tomato_branch.cpp.s
 
 CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.obj: ../src/greenhouse_graphics.cpp
 CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.obj -MF CMakeFiles\greenhouse.dir\src\greenhouse_graphics.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\greenhouse_graphics.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\greenhouse_graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.obj -MF CMakeFiles\greenhouse.dir\src\greenhouse_graphics.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\greenhouse_graphics.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\greenhouse_graphics.cpp
 
 CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\greenhouse_graphics.cpp > CMakeFiles\greenhouse.dir\src\greenhouse_graphics.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\greenhouse_graphics.cpp > CMakeFiles\greenhouse.dir\src\greenhouse_graphics.cpp.i
 
 CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/greenhouse_graphics.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\greenhouse_graphics.cpp -o CMakeFiles\greenhouse.dir\src\greenhouse_graphics.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\greenhouse_graphics.cpp -o CMakeFiles\greenhouse.dir\src\greenhouse_graphics.cpp.s
 
 CMakeFiles/greenhouse.dir/src/conditions.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/conditions.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/conditions.cpp.obj: ../src/conditions.cpp
 CMakeFiles/greenhouse.dir/src/conditions.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/greenhouse.dir/src/conditions.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/conditions.cpp.obj -MF CMakeFiles\greenhouse.dir\src\conditions.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\conditions.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\conditions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/greenhouse.dir/src/conditions.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/conditions.cpp.obj -MF CMakeFiles\greenhouse.dir\src\conditions.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\conditions.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\conditions.cpp
 
 CMakeFiles/greenhouse.dir/src/conditions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/conditions.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\conditions.cpp > CMakeFiles\greenhouse.dir\src\conditions.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\conditions.cpp > CMakeFiles\greenhouse.dir\src\conditions.cpp.i
 
 CMakeFiles/greenhouse.dir/src/conditions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/conditions.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\conditions.cpp -o CMakeFiles\greenhouse.dir\src\conditions.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\conditions.cpp -o CMakeFiles\greenhouse.dir\src\conditions.cpp.s
 
 CMakeFiles/greenhouse.dir/src/actuators.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/actuators.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/actuators.cpp.obj: ../src/actuators.cpp
 CMakeFiles/greenhouse.dir/src/actuators.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/greenhouse.dir/src/actuators.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/actuators.cpp.obj -MF CMakeFiles\greenhouse.dir\src\actuators.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\actuators.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\actuators.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/greenhouse.dir/src/actuators.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/actuators.cpp.obj -MF CMakeFiles\greenhouse.dir\src\actuators.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\actuators.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\actuators.cpp
 
 CMakeFiles/greenhouse.dir/src/actuators.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/actuators.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\actuators.cpp > CMakeFiles\greenhouse.dir\src\actuators.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\actuators.cpp > CMakeFiles\greenhouse.dir\src\actuators.cpp.i
 
 CMakeFiles/greenhouse.dir/src/actuators.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/actuators.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\actuators.cpp -o CMakeFiles\greenhouse.dir\src\actuators.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\actuators.cpp -o CMakeFiles\greenhouse.dir\src\actuators.cpp.s
 
 CMakeFiles/greenhouse.dir/src/actuator.cpp.obj: CMakeFiles/greenhouse.dir/flags.make
 CMakeFiles/greenhouse.dir/src/actuator.cpp.obj: CMakeFiles/greenhouse.dir/includes_CXX.rsp
 CMakeFiles/greenhouse.dir/src/actuator.cpp.obj: ../src/actuator.cpp
 CMakeFiles/greenhouse.dir/src/actuator.cpp.obj: CMakeFiles/greenhouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/greenhouse.dir/src/actuator.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/actuator.cpp.obj -MF CMakeFiles\greenhouse.dir\src\actuator.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\actuator.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\actuator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/greenhouse.dir/src/actuator.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greenhouse.dir/src/actuator.cpp.obj -MF CMakeFiles\greenhouse.dir\src\actuator.cpp.obj.d -o CMakeFiles\greenhouse.dir\src\actuator.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\actuator.cpp
 
 CMakeFiles/greenhouse.dir/src/actuator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/greenhouse.dir/src/actuator.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\actuator.cpp > CMakeFiles\greenhouse.dir\src\actuator.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\actuator.cpp > CMakeFiles\greenhouse.dir\src\actuator.cpp.i
 
 CMakeFiles/greenhouse.dir/src/actuator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/greenhouse.dir/src/actuator.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\src\actuator.cpp -o CMakeFiles\greenhouse.dir\src\actuator.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\src\actuator.cpp -o CMakeFiles\greenhouse.dir\src\actuator.cpp.s
 
 # Object files for target greenhouse
 greenhouse_OBJECTS = \
@@ -279,14 +279,14 @@ greenhouse.exe: CMakeFiles/greenhouse.dir/src/conditions.cpp.obj
 greenhouse.exe: CMakeFiles/greenhouse.dir/src/actuators.cpp.obj
 greenhouse.exe: CMakeFiles/greenhouse.dir/src/actuator.cpp.obj
 greenhouse.exe: CMakeFiles/greenhouse.dir/build.make
-greenhouse.exe: libs/imgui-sfml/libImGui-SFML_d.dll.a
-greenhouse.exe: libs/SFML/lib/libsfml-graphics-d.a
-greenhouse.exe: libs/SFML/lib/libsfml-window-d.a
-greenhouse.exe: libs/SFML/lib/libsfml-system-d.a
+greenhouse.exe: libs/imgui-sfml/libImGui-SFML.dll.a
+greenhouse.exe: libs/SFML/lib/libsfml-graphics.a
+greenhouse.exe: libs/SFML/lib/libsfml-window.a
+greenhouse.exe: libs/SFML/lib/libsfml-system.a
 greenhouse.exe: CMakeFiles/greenhouse.dir/linklibs.rsp
 greenhouse.exe: CMakeFiles/greenhouse.dir/objects1.rsp
 greenhouse.exe: CMakeFiles/greenhouse.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable greenhouse.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable greenhouse.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\greenhouse.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -298,6 +298,6 @@ CMakeFiles/greenhouse.dir/clean:
 .PHONY : CMakeFiles/greenhouse.dir/clean
 
 CMakeFiles/greenhouse.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\magnu\OneDrive\Skrivebord\Uni_kode C:\Users\magnu\OneDrive\Skrivebord\Uni_kode C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles\greenhouse.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles\greenhouse.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/greenhouse.dir/depend
 

@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/addr2line.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/ar.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/magnu/OneDrive/Skrivebord/Uni_kode/build"
+			"value" : "c:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -171,7 +171,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/g++.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc-ar.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -203,7 +203,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc-ranlib.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -315,7 +315,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -331,7 +331,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc-ar.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -347,7 +347,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/gcc-ranlib.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -459,7 +459,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/dlltool.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -943,7 +943,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/ld.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -955,11 +955,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "make program"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/mingw32-make.exe"
+			"value" : "C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/nm.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1083,7 +1083,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/objcopy.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1099,7 +1099,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/objdump.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_OSX_ARCHITECTURES",
@@ -1235,7 +1235,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/ranlib.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/windres.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1359,7 +1359,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/readelf.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1579,7 +1579,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/MinGW/bin/strip.exe"
+			"value" : "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1607,7 +1607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : ""
+			"value" : "1"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_FLAC",
@@ -1619,7 +1619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libFLAC.a][C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers][v()]"
+			"value" : "[C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libFLAC.a][C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenAL",
@@ -1631,7 +1631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libopenal32.a][C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/AL][v()]"
+			"value" : "[C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libopenal32.a][C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/AL][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -1655,7 +1655,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libvorbisenc.a;C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libvorbisfile.a;C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libvorbis.a;C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libogg.a][C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers][C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers][v()]"
+			"value" : "[C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libvorbisenc.a;C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libvorbisfile.a;C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libvorbis.a;C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libogg.a][C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers][C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers][v()]"
 		},
 		{
 			"name" : "FLAC_INCLUDE_DIR",
@@ -1671,7 +1671,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers"
 		},
 		{
 			"name" : "FLAC_LIBRARY",
@@ -1687,7 +1687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libFLAC.a"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libFLAC.a"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1703,7 +1703,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/freetype2"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_ft2build",
@@ -1719,7 +1719,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/freetype2"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/freetype2"
 		},
 		{
 			"name" : "FREETYPE_LIBRARY",
@@ -1735,7 +1735,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libfreetype.a"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libfreetype.a"
 		},
 		{
 			"name" : "HAVE_SIZEOF_VOID_PTR",
@@ -1795,7 +1795,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/imgui"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/imgui"
 		},
 		{
 			"name" : "IMGUI_SFML_BUILD_EXAMPLES",
@@ -1819,7 +1819,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/imgui-sfml"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/imgui-sfml"
 		},
 		{
 			"name" : "IMGUI_SFML_CONFIG_INSTALL_DIR",
@@ -1895,7 +1895,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers"
 		},
 		{
 			"name" : "OGG_LIBRARY",
@@ -1911,7 +1911,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libogg.a"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libogg.a"
 		},
 		{
 			"name" : "OPENAL_INCLUDE_DIR",
@@ -1927,7 +1927,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/AL"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/AL"
 		},
 		{
 			"name" : "OPENAL_LIBRARY",
@@ -1943,7 +1943,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libopenal32.a"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libopenal32.a"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -1987,7 +1987,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/build/libs/SFML"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/build/libs/SFML"
 		},
 		{
 			"name" : "SFML_BUILD_AUDIO",
@@ -2050,6 +2050,18 @@
 			"value" : "TRUE"
 		},
 		{
+			"name" : "SFML_BUILD_TEST_SUITE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "TRUE to build the SFML test suite, FALSE to ignore it"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "FALSE"
+		},
+		{
 			"name" : "SFML_BUILD_WINDOW",
 			"properties" : 
 			[
@@ -2062,18 +2074,6 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "SFML_DEPENDENCIES_INSTALL_PREFIX",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "External libraries (FLAC, Freetype, Vorbis, ...) installation directory"
-				}
-			],
-			"type" : "PATH",
-			"value" : "."
-		},
-		{
 			"name" : "SFML_INSTALL_PKGCONFIG_FILES",
 			"properties" : 
 			[
@@ -2084,18 +2084,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
-		},
-		{
-			"name" : "SFML_MISC_INSTALL_PREFIX",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Prefix installation path for miscellaneous files"
-				}
-			],
-			"type" : "PATH",
-			"value" : "."
 		},
 		{
 			"name" : "SFML_OPENGL_ES",
@@ -2119,7 +2107,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML"
 		},
 		{
 			"name" : "SFML_USE_STATIC_STD_LIBS",
@@ -2155,7 +2143,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "8"
 		},
 		{
 			"name" : "VORBISENC_LIBRARY",
@@ -2171,7 +2159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libvorbisenc.a"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libvorbisenc.a"
 		},
 		{
 			"name" : "VORBISFILE_LIBRARY",
@@ -2187,7 +2175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libvorbisfile.a"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libvorbisfile.a"
 		},
 		{
 			"name" : "VORBIS_INCLUDE_DIR",
@@ -2203,7 +2191,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers"
 		},
 		{
 			"name" : "VORBIS_LIBRARY",
@@ -2219,7 +2207,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/libs-mingw/x86/libvorbis.a"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/libs-mingw/x64/libvorbis.a"
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
@@ -2243,7 +2231,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/build"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/build"
 		},
 		{
 			"name" : "greenhouse_control_SOURCE_DIR",
@@ -2255,7 +2243,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse"
 		},
 		{
 			"name" : "imgui_sfml_BINARY_DIR",
@@ -2267,7 +2255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/build/libs/imgui-sfml"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/build/libs/imgui-sfml"
 		},
 		{
 			"name" : "imgui_sfml_SOURCE_DIR",
@@ -2279,7 +2267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/imgui-sfml"
+			"value" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/imgui-sfml"
 		},
 		{
 			"name" : "sfml-audio_LIB_DEPENDS",

@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/SFML/lib/libsfml-main-d.a"
+			"path" : "libs/SFML/lib/libsfml-main.a"
 		}
 	],
 	"backtrace" : 2,
@@ -35,19 +35,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 44,
+				"line" : 61,
 				"parent" : 1
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 161,
+				"line" : 197,
 				"parent" : 1
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 168,
+				"line" : 204,
 				"parent" : 1
 			}
 		]
@@ -55,21 +55,15 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src"
 				}
 			],
 			"language" : "CXX",
@@ -99,7 +93,7 @@
 		}
 	},
 	"name" : "sfml-main",
-	"nameOnDisk" : "libsfml-main-d.a",
+	"nameOnDisk" : "libsfml-main.a",
 	"paths" : 
 	{
 		"build" : "libs/SFML/src/SFML/Main",

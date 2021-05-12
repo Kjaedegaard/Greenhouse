@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "../../../lib/libsfml-audio-d.a"
-  "../../../lib/sfml-audio-d-2.dll"
-  "../../../lib/sfml-audio-d-2.dll.manifest"
-  "../../../lib/sfml-audio-d.pdb"
+  "../../../lib/libsfml-audio.a"
+  "../../../lib/sfml-audio-2.dll"
+  "../../../lib/sfml-audio-2.dll.manifest"
+  "../../../lib/sfml-audio.pdb"
   "CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj"
   "CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj.d"
   "CMakeFiles/sfml-audio.dir/AlResource.cpp.obj"
@@ -43,9 +43,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj.d"
   "CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj"
   "CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj.d"
+  "CMakeFiles/sfml-audio.dir/sfml-audio.rc.obj"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/sfml-audio.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

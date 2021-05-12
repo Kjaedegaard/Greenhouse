@@ -16,7 +16,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_targetsDefined)
 set(_targetsNotDefined)
 set(_expectedTargets)
-foreach(_expectedTarget sfml-system sfml-main sfml-window OpenGL sfml-network sfml-graphics Freetype OpenAL Vorbis FLAC sfml-audio)
+foreach(_expectedTarget sfml-system sfml-main sfml-window OpenGL sfml-network sfml-graphics Freetype OpenAL VORBIS FLAC sfml-audio)
   list(APPEND _expectedTargets ${_expectedTarget})
   if(NOT TARGET ${_expectedTarget})
     list(APPEND _targetsNotDefined ${_expectedTarget})
@@ -97,10 +97,10 @@ add_library(Freetype INTERFACE IMPORTED)
 # Create imported target OpenAL
 add_library(OpenAL INTERFACE IMPORTED)
 
-# Create imported target Vorbis
-add_library(Vorbis INTERFACE IMPORTED)
+# Create imported target VORBIS
+add_library(VORBIS INTERFACE IMPORTED)
 
-set_target_properties(Vorbis PROPERTIES
+set_target_properties(VORBIS PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "OV_EXCLUDE_STATIC_CALLBACKS"
 )
 

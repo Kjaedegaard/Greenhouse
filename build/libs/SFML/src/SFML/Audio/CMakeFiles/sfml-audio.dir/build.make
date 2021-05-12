@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode
+CMAKE_SOURCE_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build
+CMAKE_BINARY_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build
 
 # Include any dependencies generated for this target.
 include libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend.make
@@ -72,301 +72,306 @@ libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj: libs/SFML/sr
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj: ../libs/SFML/src/SFML/Audio/ALCheck.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj -MF CMakeFiles\sfml-audio.dir\ALCheck.cpp.obj.d -o CMakeFiles\sfml-audio.dir\ALCheck.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\ALCheck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj -MF CMakeFiles\sfml-audio.dir\ALCheck.cpp.obj.d -o CMakeFiles\sfml-audio.dir\ALCheck.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\ALCheck.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/ALCheck.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\ALCheck.cpp > CMakeFiles\sfml-audio.dir\ALCheck.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\ALCheck.cpp > CMakeFiles\sfml-audio.dir\ALCheck.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/ALCheck.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\ALCheck.cpp -o CMakeFiles\sfml-audio.dir\ALCheck.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\ALCheck.cpp -o CMakeFiles\sfml-audio.dir\ALCheck.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj: ../libs/SFML/src/SFML/Audio/AlResource.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj -MF CMakeFiles\sfml-audio.dir\AlResource.cpp.obj.d -o CMakeFiles\sfml-audio.dir\AlResource.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\AlResource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj -MF CMakeFiles\sfml-audio.dir\AlResource.cpp.obj.d -o CMakeFiles\sfml-audio.dir\AlResource.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\AlResource.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/AlResource.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\AlResource.cpp > CMakeFiles\sfml-audio.dir\AlResource.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\AlResource.cpp > CMakeFiles\sfml-audio.dir\AlResource.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/AlResource.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\AlResource.cpp -o CMakeFiles\sfml-audio.dir\AlResource.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\AlResource.cpp -o CMakeFiles\sfml-audio.dir\AlResource.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj: ../libs/SFML/src/SFML/Audio/AudioDevice.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj -MF CMakeFiles\sfml-audio.dir\AudioDevice.cpp.obj.d -o CMakeFiles\sfml-audio.dir\AudioDevice.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\AudioDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj -MF CMakeFiles\sfml-audio.dir\AudioDevice.cpp.obj.d -o CMakeFiles\sfml-audio.dir\AudioDevice.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\AudioDevice.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/AudioDevice.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\AudioDevice.cpp > CMakeFiles\sfml-audio.dir\AudioDevice.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\AudioDevice.cpp > CMakeFiles\sfml-audio.dir\AudioDevice.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/AudioDevice.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\AudioDevice.cpp -o CMakeFiles\sfml-audio.dir\AudioDevice.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\AudioDevice.cpp -o CMakeFiles\sfml-audio.dir\AudioDevice.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj: ../libs/SFML/src/SFML/Audio/Listener.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj -MF CMakeFiles\sfml-audio.dir\Listener.cpp.obj.d -o CMakeFiles\sfml-audio.dir\Listener.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\Listener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj -MF CMakeFiles\sfml-audio.dir\Listener.cpp.obj.d -o CMakeFiles\sfml-audio.dir\Listener.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\Listener.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/Listener.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\Listener.cpp > CMakeFiles\sfml-audio.dir\Listener.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\Listener.cpp > CMakeFiles\sfml-audio.dir\Listener.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/Listener.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\Listener.cpp -o CMakeFiles\sfml-audio.dir\Listener.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\Listener.cpp -o CMakeFiles\sfml-audio.dir\Listener.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj: ../libs/SFML/src/SFML/Audio/Music.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj -MF CMakeFiles\sfml-audio.dir\Music.cpp.obj.d -o CMakeFiles\sfml-audio.dir\Music.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\Music.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj -MF CMakeFiles\sfml-audio.dir\Music.cpp.obj.d -o CMakeFiles\sfml-audio.dir\Music.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\Music.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/Music.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\Music.cpp > CMakeFiles\sfml-audio.dir\Music.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\Music.cpp > CMakeFiles\sfml-audio.dir\Music.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/Music.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\Music.cpp -o CMakeFiles\sfml-audio.dir\Music.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\Music.cpp -o CMakeFiles\sfml-audio.dir\Music.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj: ../libs/SFML/src/SFML/Audio/Sound.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj -MF CMakeFiles\sfml-audio.dir\Sound.cpp.obj.d -o CMakeFiles\sfml-audio.dir\Sound.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\Sound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj -MF CMakeFiles\sfml-audio.dir\Sound.cpp.obj.d -o CMakeFiles\sfml-audio.dir\Sound.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\Sound.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/Sound.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\Sound.cpp > CMakeFiles\sfml-audio.dir\Sound.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\Sound.cpp > CMakeFiles\sfml-audio.dir\Sound.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/Sound.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\Sound.cpp -o CMakeFiles\sfml-audio.dir\Sound.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\Sound.cpp -o CMakeFiles\sfml-audio.dir\Sound.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundBuffer.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundBuffer.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundBuffer.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundBuffer.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundBuffer.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundBuffer.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundBuffer.cpp > CMakeFiles\sfml-audio.dir\SoundBuffer.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundBuffer.cpp > CMakeFiles\sfml-audio.dir\SoundBuffer.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundBuffer.cpp -o CMakeFiles\sfml-audio.dir\SoundBuffer.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundBuffer.cpp -o CMakeFiles\sfml-audio.dir\SoundBuffer.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundBufferRecorder.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundBufferRecorder.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundBufferRecorder.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundBufferRecorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundBufferRecorder.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundBufferRecorder.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundBufferRecorder.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundBufferRecorder.cpp > CMakeFiles\sfml-audio.dir\SoundBufferRecorder.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundBufferRecorder.cpp > CMakeFiles\sfml-audio.dir\SoundBufferRecorder.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundBufferRecorder.cpp -o CMakeFiles\sfml-audio.dir\SoundBufferRecorder.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundBufferRecorder.cpp -o CMakeFiles\sfml-audio.dir\SoundBufferRecorder.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj: ../libs/SFML/src/SFML/Audio/InputSoundFile.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj -MF CMakeFiles\sfml-audio.dir\InputSoundFile.cpp.obj.d -o CMakeFiles\sfml-audio.dir\InputSoundFile.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\InputSoundFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj -MF CMakeFiles\sfml-audio.dir\InputSoundFile.cpp.obj.d -o CMakeFiles\sfml-audio.dir\InputSoundFile.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\InputSoundFile.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\InputSoundFile.cpp > CMakeFiles\sfml-audio.dir\InputSoundFile.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\InputSoundFile.cpp > CMakeFiles\sfml-audio.dir\InputSoundFile.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\InputSoundFile.cpp -o CMakeFiles\sfml-audio.dir\InputSoundFile.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\InputSoundFile.cpp -o CMakeFiles\sfml-audio.dir\InputSoundFile.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj: ../libs/SFML/src/SFML/Audio/OutputSoundFile.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj -MF CMakeFiles\sfml-audio.dir\OutputSoundFile.cpp.obj.d -o CMakeFiles\sfml-audio.dir\OutputSoundFile.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\OutputSoundFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj -MF CMakeFiles\sfml-audio.dir\OutputSoundFile.cpp.obj.d -o CMakeFiles\sfml-audio.dir\OutputSoundFile.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\OutputSoundFile.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\OutputSoundFile.cpp > CMakeFiles\sfml-audio.dir\OutputSoundFile.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\OutputSoundFile.cpp > CMakeFiles\sfml-audio.dir\OutputSoundFile.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\OutputSoundFile.cpp -o CMakeFiles\sfml-audio.dir\OutputSoundFile.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\OutputSoundFile.cpp -o CMakeFiles\sfml-audio.dir\OutputSoundFile.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundRecorder.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundRecorder.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundRecorder.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundRecorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundRecorder.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundRecorder.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundRecorder.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundRecorder.cpp > CMakeFiles\sfml-audio.dir\SoundRecorder.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundRecorder.cpp > CMakeFiles\sfml-audio.dir\SoundRecorder.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundRecorder.cpp -o CMakeFiles\sfml-audio.dir\SoundRecorder.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundRecorder.cpp -o CMakeFiles\sfml-audio.dir\SoundRecorder.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundSource.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundSource.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundSource.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundSource.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundSource.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundSource.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundSource.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundSource.cpp > CMakeFiles\sfml-audio.dir\SoundSource.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundSource.cpp > CMakeFiles\sfml-audio.dir\SoundSource.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundSource.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundSource.cpp -o CMakeFiles\sfml-audio.dir\SoundSource.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundSource.cpp -o CMakeFiles\sfml-audio.dir\SoundSource.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundStream.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundStream.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundStream.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundStream.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundStream.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundStream.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundStream.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundStream.cpp > CMakeFiles\sfml-audio.dir\SoundStream.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundStream.cpp > CMakeFiles\sfml-audio.dir\SoundStream.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundStream.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundStream.cpp -o CMakeFiles\sfml-audio.dir\SoundStream.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundStream.cpp -o CMakeFiles\sfml-audio.dir\SoundStream.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundFileFactory.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileFactory.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileFactory.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileFactory.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileFactory.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileFactory.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileFactory.cpp > CMakeFiles\sfml-audio.dir\SoundFileFactory.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileFactory.cpp > CMakeFiles\sfml-audio.dir\SoundFileFactory.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileFactory.cpp -o CMakeFiles\sfml-audio.dir\SoundFileFactory.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileFactory.cpp -o CMakeFiles\sfml-audio.dir\SoundFileFactory.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundFileReaderFlac.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileReaderFlac.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileReaderFlac.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileReaderFlac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileReaderFlac.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileReaderFlac.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileReaderFlac.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileReaderFlac.cpp > CMakeFiles\sfml-audio.dir\SoundFileReaderFlac.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileReaderFlac.cpp > CMakeFiles\sfml-audio.dir\SoundFileReaderFlac.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileReaderFlac.cpp -o CMakeFiles\sfml-audio.dir\SoundFileReaderFlac.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileReaderFlac.cpp -o CMakeFiles\sfml-audio.dir\SoundFileReaderFlac.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundFileReaderOgg.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileReaderOgg.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileReaderOgg.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileReaderOgg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileReaderOgg.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileReaderOgg.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileReaderOgg.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileReaderOgg.cpp > CMakeFiles\sfml-audio.dir\SoundFileReaderOgg.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileReaderOgg.cpp > CMakeFiles\sfml-audio.dir\SoundFileReaderOgg.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileReaderOgg.cpp -o CMakeFiles\sfml-audio.dir\SoundFileReaderOgg.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileReaderOgg.cpp -o CMakeFiles\sfml-audio.dir\SoundFileReaderOgg.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundFileReaderWav.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileReaderWav.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileReaderWav.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileReaderWav.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileReaderWav.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileReaderWav.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileReaderWav.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileReaderWav.cpp > CMakeFiles\sfml-audio.dir\SoundFileReaderWav.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileReaderWav.cpp > CMakeFiles\sfml-audio.dir\SoundFileReaderWav.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileReaderWav.cpp -o CMakeFiles\sfml-audio.dir\SoundFileReaderWav.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileReaderWav.cpp -o CMakeFiles\sfml-audio.dir\SoundFileReaderWav.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundFileWriterFlac.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileWriterFlac.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileWriterFlac.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileWriterFlac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileWriterFlac.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileWriterFlac.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileWriterFlac.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileWriterFlac.cpp > CMakeFiles\sfml-audio.dir\SoundFileWriterFlac.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileWriterFlac.cpp > CMakeFiles\sfml-audio.dir\SoundFileWriterFlac.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileWriterFlac.cpp -o CMakeFiles\sfml-audio.dir\SoundFileWriterFlac.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileWriterFlac.cpp -o CMakeFiles\sfml-audio.dir\SoundFileWriterFlac.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundFileWriterOgg.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileWriterOgg.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileWriterOgg.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileWriterOgg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileWriterOgg.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileWriterOgg.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileWriterOgg.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileWriterOgg.cpp > CMakeFiles\sfml-audio.dir\SoundFileWriterOgg.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileWriterOgg.cpp > CMakeFiles\sfml-audio.dir\SoundFileWriterOgg.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileWriterOgg.cpp -o CMakeFiles\sfml-audio.dir\SoundFileWriterOgg.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileWriterOgg.cpp -o CMakeFiles\sfml-audio.dir\SoundFileWriterOgg.cpp.s
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj: ../libs/SFML/src/SFML/Audio/SoundFileWriterWav.cpp
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileWriterWav.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileWriterWav.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileWriterWav.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj -MF CMakeFiles\sfml-audio.dir\SoundFileWriterWav.cpp.obj.d -o CMakeFiles\sfml-audio.dir\SoundFileWriterWav.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileWriterWav.cpp
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileWriterWav.cpp > CMakeFiles\sfml-audio.dir\SoundFileWriterWav.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileWriterWav.cpp > CMakeFiles\sfml-audio.dir\SoundFileWriterWav.cpp.i
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio\SoundFileWriterWav.cpp -o CMakeFiles\sfml-audio.dir\SoundFileWriterWav.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio\SoundFileWriterWav.cpp -o CMakeFiles\sfml-audio.dir\SoundFileWriterWav.cpp.s
+
+libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/sfml-audio.rc.obj: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/flags.make
+libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/sfml-audio.rc.obj: libs/SFML/src/SFML/Audio/sfml-audio.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building RC object libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/sfml-audio.rc.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio\sfml-audio.rc CMakeFiles\sfml-audio.dir\sfml-audio.rc.obj
 
 # Object files for target sfml-audio
 sfml__audio_OBJECTS = \
@@ -389,54 +394,56 @@ sfml__audio_OBJECTS = \
 "CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj" \
 "CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj" \
 "CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj" \
-"CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj"
+"CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj" \
+"CMakeFiles/sfml-audio.dir/sfml-audio.rc.obj"
 
 # External object files for target sfml-audio
 sfml__audio_EXTERNAL_OBJECTS =
 
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/lib/libsfml-system-d.a
-libs/SFML/lib/sfml-audio-d-2.dll: ../libs/SFML/extlibs/libs-mingw/x86/libopenal32.a
-libs/SFML/lib/sfml-audio-d-2.dll: ../libs/SFML/extlibs/libs-mingw/x86/libvorbisenc.a
-libs/SFML/lib/sfml-audio-d-2.dll: ../libs/SFML/extlibs/libs-mingw/x86/libvorbisfile.a
-libs/SFML/lib/sfml-audio-d-2.dll: ../libs/SFML/extlibs/libs-mingw/x86/libvorbis.a
-libs/SFML/lib/sfml-audio-d-2.dll: ../libs/SFML/extlibs/libs-mingw/x86/libogg.a
-libs/SFML/lib/sfml-audio-d-2.dll: ../libs/SFML/extlibs/libs-mingw/x86/libFLAC.a
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/linklibs.rsp
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/objects1.rsp
-libs/SFML/lib/sfml-audio-d-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX shared library ..\..\..\lib\sfml-audio-d-2.dll"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-audio.dir\link.txt --verbose=$(VERBOSE)
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/sfml-audio.rc.obj
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/lib/libsfml-system.a
+libs/SFML/lib/sfml-audio-2.dll: ../libs/SFML/extlibs/libs-mingw/x64/libopenal32.a
+libs/SFML/lib/sfml-audio-2.dll: ../libs/SFML/extlibs/libs-mingw/x64/libvorbisenc.a
+libs/SFML/lib/sfml-audio-2.dll: ../libs/SFML/extlibs/libs-mingw/x64/libvorbisfile.a
+libs/SFML/lib/sfml-audio-2.dll: ../libs/SFML/extlibs/libs-mingw/x64/libvorbis.a
+libs/SFML/lib/sfml-audio-2.dll: ../libs/SFML/extlibs/libs-mingw/x64/libogg.a
+libs/SFML/lib/sfml-audio-2.dll: ../libs/SFML/extlibs/libs-mingw/x64/libFLAC.a
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/linklibs.rsp
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/objects1.rsp
+libs/SFML/lib/sfml-audio-2.dll: libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX shared library ..\..\..\lib\sfml-audio-2.dll"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-audio.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build: libs/SFML/lib/sfml-audio-d-2.dll
+libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build: libs/SFML/lib/sfml-audio-2.dll
 .PHONY : libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/clean:
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio && $(CMAKE_COMMAND) -P CMakeFiles\sfml-audio.dir\cmake_clean.cmake
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio && $(CMAKE_COMMAND) -P CMakeFiles\sfml-audio.dir\cmake_clean.cmake
 .PHONY : libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/clean
 
 libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\magnu\OneDrive\Skrivebord\Uni_kode C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Audio C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Audio\CMakeFiles\sfml-audio.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Audio C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Audio\CMakeFiles\sfml-audio.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 

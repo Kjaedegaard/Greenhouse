@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode
+CMAKE_SOURCE_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build
+CMAKE_BINARY_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build
 
 # Include any dependencies generated for this target.
 include libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/depend.make
@@ -72,367 +72,434 @@ libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj: libs/SFM
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj: ../libs/SFML/src/SFML/Window/Clipboard.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj -MF CMakeFiles\sfml-window.dir\Clipboard.cpp.obj.d -o CMakeFiles\sfml-window.dir\Clipboard.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Clipboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj -MF CMakeFiles\sfml-window.dir\Clipboard.cpp.obj.d -o CMakeFiles\sfml-window.dir\Clipboard.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Clipboard.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Clipboard.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Clipboard.cpp > CMakeFiles\sfml-window.dir\Clipboard.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Clipboard.cpp > CMakeFiles\sfml-window.dir\Clipboard.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Clipboard.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Clipboard.cpp -o CMakeFiles\sfml-window.dir\Clipboard.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Clipboard.cpp -o CMakeFiles\sfml-window.dir\Clipboard.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj: ../libs/SFML/src/SFML/Window/Context.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj -MF CMakeFiles\sfml-window.dir\Context.cpp.obj.d -o CMakeFiles\sfml-window.dir\Context.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj -MF CMakeFiles\sfml-window.dir\Context.cpp.obj.d -o CMakeFiles\sfml-window.dir\Context.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Context.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Context.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Context.cpp > CMakeFiles\sfml-window.dir\Context.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Context.cpp > CMakeFiles\sfml-window.dir\Context.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Context.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Context.cpp -o CMakeFiles\sfml-window.dir\Context.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Context.cpp -o CMakeFiles\sfml-window.dir\Context.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj: ../libs/SFML/src/SFML/Window/Cursor.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj -MF CMakeFiles\sfml-window.dir\Cursor.cpp.obj.d -o CMakeFiles\sfml-window.dir\Cursor.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Cursor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj -MF CMakeFiles\sfml-window.dir\Cursor.cpp.obj.d -o CMakeFiles\sfml-window.dir\Cursor.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Cursor.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Cursor.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Cursor.cpp > CMakeFiles\sfml-window.dir\Cursor.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Cursor.cpp > CMakeFiles\sfml-window.dir\Cursor.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Cursor.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Cursor.cpp -o CMakeFiles\sfml-window.dir\Cursor.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Cursor.cpp -o CMakeFiles\sfml-window.dir\Cursor.cpp.s
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj: ../libs/SFML/src/SFML/Window/EGLCheck.cpp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj -MF CMakeFiles\sfml-window.dir\EGLCheck.cpp.obj.d -o CMakeFiles\sfml-window.dir\EGLCheck.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\EGLCheck.cpp
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/EGLCheck.cpp.i"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\EGLCheck.cpp > CMakeFiles\sfml-window.dir\EGLCheck.cpp.i
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/EGLCheck.cpp.s"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\EGLCheck.cpp -o CMakeFiles\sfml-window.dir\EGLCheck.cpp.s
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.obj: ../libs/SFML/src/SFML/Window/EglContext.cpp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.obj -MF CMakeFiles\sfml-window.dir\EglContext.cpp.obj.d -o CMakeFiles\sfml-window.dir\EglContext.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\EglContext.cpp
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/EglContext.cpp.i"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\EglContext.cpp > CMakeFiles\sfml-window.dir\EglContext.cpp.i
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/EglContext.cpp.s"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\EglContext.cpp -o CMakeFiles\sfml-window.dir\EglContext.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj: ../libs/SFML/src/SFML/Window/GlContext.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj -MF CMakeFiles\sfml-window.dir\GlContext.cpp.obj.d -o CMakeFiles\sfml-window.dir\GlContext.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\GlContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj -MF CMakeFiles\sfml-window.dir\GlContext.cpp.obj.d -o CMakeFiles\sfml-window.dir\GlContext.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\GlContext.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/GlContext.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\GlContext.cpp > CMakeFiles\sfml-window.dir\GlContext.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\GlContext.cpp > CMakeFiles\sfml-window.dir\GlContext.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/GlContext.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\GlContext.cpp -o CMakeFiles\sfml-window.dir\GlContext.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\GlContext.cpp -o CMakeFiles\sfml-window.dir\GlContext.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj: ../libs/SFML/src/SFML/Window/GlResource.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj -MF CMakeFiles\sfml-window.dir\GlResource.cpp.obj.d -o CMakeFiles\sfml-window.dir\GlResource.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\GlResource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj -MF CMakeFiles\sfml-window.dir\GlResource.cpp.obj.d -o CMakeFiles\sfml-window.dir\GlResource.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\GlResource.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/GlResource.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\GlResource.cpp > CMakeFiles\sfml-window.dir\GlResource.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\GlResource.cpp > CMakeFiles\sfml-window.dir\GlResource.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/GlResource.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\GlResource.cpp -o CMakeFiles\sfml-window.dir\GlResource.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\GlResource.cpp -o CMakeFiles\sfml-window.dir\GlResource.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj: ../libs/SFML/src/SFML/Window/Joystick.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj -MF CMakeFiles\sfml-window.dir\Joystick.cpp.obj.d -o CMakeFiles\sfml-window.dir\Joystick.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Joystick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj -MF CMakeFiles\sfml-window.dir\Joystick.cpp.obj.d -o CMakeFiles\sfml-window.dir\Joystick.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Joystick.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Joystick.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Joystick.cpp > CMakeFiles\sfml-window.dir\Joystick.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Joystick.cpp > CMakeFiles\sfml-window.dir\Joystick.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Joystick.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Joystick.cpp -o CMakeFiles\sfml-window.dir\Joystick.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Joystick.cpp -o CMakeFiles\sfml-window.dir\Joystick.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj: ../libs/SFML/src/SFML/Window/JoystickManager.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj -MF CMakeFiles\sfml-window.dir\JoystickManager.cpp.obj.d -o CMakeFiles\sfml-window.dir\JoystickManager.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\JoystickManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj -MF CMakeFiles\sfml-window.dir\JoystickManager.cpp.obj.d -o CMakeFiles\sfml-window.dir\JoystickManager.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\JoystickManager.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/JoystickManager.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\JoystickManager.cpp > CMakeFiles\sfml-window.dir\JoystickManager.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\JoystickManager.cpp > CMakeFiles\sfml-window.dir\JoystickManager.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/JoystickManager.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\JoystickManager.cpp -o CMakeFiles\sfml-window.dir\JoystickManager.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\JoystickManager.cpp -o CMakeFiles\sfml-window.dir\JoystickManager.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj: ../libs/SFML/src/SFML/Window/Keyboard.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj -MF CMakeFiles\sfml-window.dir\Keyboard.cpp.obj.d -o CMakeFiles\sfml-window.dir\Keyboard.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj -MF CMakeFiles\sfml-window.dir\Keyboard.cpp.obj.d -o CMakeFiles\sfml-window.dir\Keyboard.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Keyboard.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Keyboard.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Keyboard.cpp > CMakeFiles\sfml-window.dir\Keyboard.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Keyboard.cpp > CMakeFiles\sfml-window.dir\Keyboard.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Keyboard.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Keyboard.cpp -o CMakeFiles\sfml-window.dir\Keyboard.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Keyboard.cpp -o CMakeFiles\sfml-window.dir\Keyboard.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj: ../libs/SFML/src/SFML/Window/Mouse.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj -MF CMakeFiles\sfml-window.dir\Mouse.cpp.obj.d -o CMakeFiles\sfml-window.dir\Mouse.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Mouse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj -MF CMakeFiles\sfml-window.dir\Mouse.cpp.obj.d -o CMakeFiles\sfml-window.dir\Mouse.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Mouse.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Mouse.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Mouse.cpp > CMakeFiles\sfml-window.dir\Mouse.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Mouse.cpp > CMakeFiles\sfml-window.dir\Mouse.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Mouse.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Mouse.cpp -o CMakeFiles\sfml-window.dir\Mouse.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Mouse.cpp -o CMakeFiles\sfml-window.dir\Mouse.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj: ../libs/SFML/src/SFML/Window/Touch.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj -MF CMakeFiles\sfml-window.dir\Touch.cpp.obj.d -o CMakeFiles\sfml-window.dir\Touch.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Touch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj -MF CMakeFiles\sfml-window.dir\Touch.cpp.obj.d -o CMakeFiles\sfml-window.dir\Touch.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Touch.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Touch.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Touch.cpp > CMakeFiles\sfml-window.dir\Touch.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Touch.cpp > CMakeFiles\sfml-window.dir\Touch.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Touch.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Touch.cpp -o CMakeFiles\sfml-window.dir\Touch.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Touch.cpp -o CMakeFiles\sfml-window.dir\Touch.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj: ../libs/SFML/src/SFML/Window/Sensor.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj -MF CMakeFiles\sfml-window.dir\Sensor.cpp.obj.d -o CMakeFiles\sfml-window.dir\Sensor.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Sensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj -MF CMakeFiles\sfml-window.dir\Sensor.cpp.obj.d -o CMakeFiles\sfml-window.dir\Sensor.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Sensor.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Sensor.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Sensor.cpp > CMakeFiles\sfml-window.dir\Sensor.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Sensor.cpp > CMakeFiles\sfml-window.dir\Sensor.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Sensor.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Sensor.cpp -o CMakeFiles\sfml-window.dir\Sensor.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Sensor.cpp -o CMakeFiles\sfml-window.dir\Sensor.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj: ../libs/SFML/src/SFML/Window/SensorManager.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj -MF CMakeFiles\sfml-window.dir\SensorManager.cpp.obj.d -o CMakeFiles\sfml-window.dir\SensorManager.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\SensorManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj -MF CMakeFiles\sfml-window.dir\SensorManager.cpp.obj.d -o CMakeFiles\sfml-window.dir\SensorManager.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\SensorManager.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/SensorManager.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\SensorManager.cpp > CMakeFiles\sfml-window.dir\SensorManager.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\SensorManager.cpp > CMakeFiles\sfml-window.dir\SensorManager.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/SensorManager.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\SensorManager.cpp -o CMakeFiles\sfml-window.dir\SensorManager.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\SensorManager.cpp -o CMakeFiles\sfml-window.dir\SensorManager.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj: ../libs/SFML/src/SFML/Window/VideoMode.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj -MF CMakeFiles\sfml-window.dir\VideoMode.cpp.obj.d -o CMakeFiles\sfml-window.dir\VideoMode.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\VideoMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj -MF CMakeFiles\sfml-window.dir\VideoMode.cpp.obj.d -o CMakeFiles\sfml-window.dir\VideoMode.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\VideoMode.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/VideoMode.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\VideoMode.cpp > CMakeFiles\sfml-window.dir\VideoMode.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\VideoMode.cpp > CMakeFiles\sfml-window.dir\VideoMode.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/VideoMode.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\VideoMode.cpp -o CMakeFiles\sfml-window.dir\VideoMode.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\VideoMode.cpp -o CMakeFiles\sfml-window.dir\VideoMode.cpp.s
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj: ../libs/SFML/src/SFML/Window/Vulkan.cpp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj -MF CMakeFiles\sfml-window.dir\Vulkan.cpp.obj.d -o CMakeFiles\sfml-window.dir\Vulkan.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Vulkan.cpp
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Vulkan.cpp.i"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Vulkan.cpp > CMakeFiles\sfml-window.dir\Vulkan.cpp.i
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Vulkan.cpp.s"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Vulkan.cpp -o CMakeFiles\sfml-window.dir\Vulkan.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj: ../libs/SFML/src/SFML/Window/Window.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj -MF CMakeFiles\sfml-window.dir\Window.cpp.obj.d -o CMakeFiles\sfml-window.dir\Window.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj -MF CMakeFiles\sfml-window.dir\Window.cpp.obj.d -o CMakeFiles\sfml-window.dir\Window.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Window.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Window.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Window.cpp > CMakeFiles\sfml-window.dir\Window.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Window.cpp > CMakeFiles\sfml-window.dir\Window.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Window.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Window.cpp -o CMakeFiles\sfml-window.dir\Window.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Window.cpp -o CMakeFiles\sfml-window.dir\Window.cpp.s
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.obj: ../libs/SFML/src/SFML/Window/WindowBase.cpp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.obj -MF CMakeFiles\sfml-window.dir\WindowBase.cpp.obj.d -o CMakeFiles\sfml-window.dir\WindowBase.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\WindowBase.cpp
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/WindowBase.cpp.i"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\WindowBase.cpp > CMakeFiles\sfml-window.dir\WindowBase.cpp.i
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/WindowBase.cpp.s"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\WindowBase.cpp -o CMakeFiles\sfml-window.dir\WindowBase.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj: ../libs/SFML/src/SFML/Window/WindowImpl.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\WindowImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\WindowImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\WindowImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\WindowImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\WindowImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\WindowImpl.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/WindowImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\WindowImpl.cpp > CMakeFiles\sfml-window.dir\WindowImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\WindowImpl.cpp > CMakeFiles\sfml-window.dir\WindowImpl.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/WindowImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\WindowImpl.cpp -o CMakeFiles\sfml-window.dir\WindowImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\WindowImpl.cpp -o CMakeFiles\sfml-window.dir\WindowImpl.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/CursorImpl.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\CursorImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\CursorImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\CursorImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\CursorImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\CursorImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\CursorImpl.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\CursorImpl.cpp > CMakeFiles\sfml-window.dir\Win32\CursorImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\CursorImpl.cpp > CMakeFiles\sfml-window.dir\Win32\CursorImpl.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\CursorImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\CursorImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\CursorImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\CursorImpl.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/ClipboardImpl.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\ClipboardImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\ClipboardImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\ClipboardImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\ClipboardImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp > CMakeFiles\sfml-window.dir\Win32\ClipboardImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp > CMakeFiles\sfml-window.dir\Win32\ClipboardImpl.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\ClipboardImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\ClipboardImpl.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/WglContext.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\WglContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\WglContext.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\WglContext.cpp > CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\WglContext.cpp > CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\WglContext.cpp -o CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.s
-
-libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
-libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
-libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/WglExtensions.cpp
-libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\WglExtensions.cpp
-
-libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\WglExtensions.cpp > CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.i
-
-libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\WglExtensions.cpp -o CMakeFiles\sfml-window.dir\Win32\WglExtensions.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\WglContext.cpp -o CMakeFiles\sfml-window.dir\Win32\WglContext.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/InputImpl.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\InputImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\InputImpl.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\InputImpl.cpp > CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\InputImpl.cpp > CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\InputImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\InputImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\InputImpl.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/JoystickImpl.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\JoystickImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\JoystickImpl.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\JoystickImpl.cpp > CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\JoystickImpl.cpp > CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\JoystickImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\JoystickImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\JoystickImpl.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/SensorImpl.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\SensorImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\SensorImpl.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\SensorImpl.cpp > CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\SensorImpl.cpp > CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\SensorImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\SensorImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\SensorImpl.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/VideoModeImpl.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp > CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp > CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp -o CMakeFiles\sfml-window.dir\Win32\VideoModeImpl.cpp.s
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/VulkanImplWin32.cpp
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\VulkanImplWin32.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\VulkanImplWin32.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\VulkanImplWin32.cpp
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.i"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\VulkanImplWin32.cpp > CMakeFiles\sfml-window.dir\Win32\VulkanImplWin32.cpp.i
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.s"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\VulkanImplWin32.cpp -o CMakeFiles\sfml-window.dir\Win32\VulkanImplWin32.cpp.s
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/includes_CXX.rsp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj: ../libs/SFML/src/SFML/Window/Win32/WindowImplWin32.cpp
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj -MF CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.obj.d -o CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp > CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp > CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.i
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp -o CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp -o CMakeFiles\sfml-window.dir\Win32\WindowImplWin32.cpp.s
+
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/sfml-window.rc.obj: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/sfml-window.rc.obj: libs/SFML/src/SFML/Window/sfml-window.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building RC object libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/sfml-window.rc.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window\sfml-window.rc CMakeFiles\sfml-window.dir\sfml-window.rc.obj
 
 # Object files for target sfml-window
 sfml__window_OBJECTS = \
 "CMakeFiles/sfml-window.dir/Clipboard.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Context.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Cursor.cpp.obj" \
+"CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj" \
+"CMakeFiles/sfml-window.dir/EglContext.cpp.obj" \
 "CMakeFiles/sfml-window.dir/GlContext.cpp.obj" \
 "CMakeFiles/sfml-window.dir/GlResource.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Joystick.cpp.obj" \
@@ -443,62 +510,70 @@ sfml__window_OBJECTS = \
 "CMakeFiles/sfml-window.dir/Sensor.cpp.obj" \
 "CMakeFiles/sfml-window.dir/SensorManager.cpp.obj" \
 "CMakeFiles/sfml-window.dir/VideoMode.cpp.obj" \
+"CMakeFiles/sfml-window.dir/Vulkan.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Window.cpp.obj" \
+"CMakeFiles/sfml-window.dir/WindowBase.cpp.obj" \
 "CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj" \
-"CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj" \
 "CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj" \
-"CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj"
+"CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj" \
+"CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj" \
+"CMakeFiles/sfml-window.dir/sfml-window.rc.obj"
 
 # External object files for target sfml-window
 sfml__window_EXTERNAL_OBJECTS =
 
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/lib/libsfml-system-d.a
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/linklibs.rsp
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/objects1.rsp
-libs/SFML/lib/sfml-window-d-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX shared library ..\..\..\lib\sfml-window-d-2.dll"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-window.dir\link.txt --verbose=$(VERBOSE)
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VulkanImplWin32.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/sfml-window.rc.obj
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/lib/libsfml-system.a
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/linklibs.rsp
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/objects1.rsp
+libs/SFML/lib/sfml-window-2.dll: libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX shared library ..\..\..\lib\sfml-window-2.dll"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-window.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build: libs/SFML/lib/sfml-window-d-2.dll
+libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build: libs/SFML/lib/sfml-window-2.dll
 .PHONY : libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/clean:
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window && $(CMAKE_COMMAND) -P CMakeFiles\sfml-window.dir\cmake_clean.cmake
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window && $(CMAKE_COMMAND) -P CMakeFiles\sfml-window.dir\cmake_clean.cmake
 .PHONY : libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/clean
 
 libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\magnu\OneDrive\Skrivebord\Uni_kode C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\Window C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\Window C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\Window\CMakeFiles\sfml-window.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/depend
 

@@ -1,1 +1,1 @@
--IC:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include -IC:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src -IC:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/mingw
+-IC:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include -IC:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src -IC:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/glad/include -IC:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/vulkan

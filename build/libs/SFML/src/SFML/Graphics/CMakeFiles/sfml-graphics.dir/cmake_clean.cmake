@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "../../../lib/libsfml-graphics-d.a"
-  "../../../lib/sfml-graphics-d-2.dll"
-  "../../../lib/sfml-graphics-d-2.dll.manifest"
-  "../../../lib/sfml-graphics-d.pdb"
+  "../../../lib/libsfml-graphics.a"
+  "../../../lib/sfml-graphics-2.dll"
+  "../../../lib/sfml-graphics-2.dll.manifest"
+  "../../../lib/sfml-graphics.pdb"
   "CMakeFiles/sfml-graphics.dir/BlendMode.cpp.obj"
   "CMakeFiles/sfml-graphics.dir/BlendMode.cpp.obj.d"
   "CMakeFiles/sfml-graphics.dir/CircleShape.cpp.obj"
@@ -17,8 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj.d"
   "CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.obj"
   "CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.obj.d"
-  "CMakeFiles/sfml-graphics.dir/GLLoader.cpp.obj"
-  "CMakeFiles/sfml-graphics.dir/GLLoader.cpp.obj.d"
   "CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj"
   "CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj.d"
   "CMakeFiles/sfml-graphics.dir/Image.cpp.obj"
@@ -65,9 +63,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.obj.d"
   "CMakeFiles/sfml-graphics.dir/View.cpp.obj"
   "CMakeFiles/sfml-graphics.dir/View.cpp.obj.d"
+  "CMakeFiles/sfml-graphics.dir/sfml-graphics.rc.obj"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/sfml-graphics.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

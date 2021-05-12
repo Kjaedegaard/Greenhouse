@@ -49,12 +49,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"defines" : 
 			[
 				{
@@ -66,11 +60,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/include"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
 				},
 				{
 					"backtrace" : 3,
@@ -78,15 +72,15 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/imgui-sfml"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/imgui-sfml"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/res/fonts"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/res/fonts"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/imgui"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/imgui"
 				}
 			],
 			"language" : "CXX",
@@ -115,11 +109,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "sfml-window::@b3059e65f89605c2b3d3"
+			"id" : "sfml-graphics::@a0e6144642577840cf67"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "sfml-graphics::@a0e6144642577840cf67"
+			"id" : "sfml-window::@b3059e65f89605c2b3d3"
 		},
 		{
 			"backtrace" : 2,
@@ -132,30 +126,26 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libs\\imgui-sfml\\libImGui-SFML_d.dll.a",
+				"fragment" : "libs\\imgui-sfml\\libImGui-SFML.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libs\\SFML\\lib\\libsfml-graphics-d.a",
+				"fragment" : "libs\\SFML\\lib\\libsfml-graphics.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "libs\\SFML\\lib\\libsfml-window-d.a",
+				"fragment" : "libs\\SFML\\lib\\libsfml-window.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libs\\SFML\\lib\\libsfml-system-d.a",
+				"fragment" : "libs\\SFML\\lib\\libsfml-system.a",
 				"role" : "libraries"
 			},
 			{

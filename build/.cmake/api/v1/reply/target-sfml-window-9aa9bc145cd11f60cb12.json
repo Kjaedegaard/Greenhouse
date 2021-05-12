@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/SFML/lib/sfml-window-d-2.dll"
+			"path" : "libs/SFML/lib/sfml-window-2.dll"
 		},
 		{
-			"path" : "libs/SFML/lib/libsfml-window-d.a"
+			"path" : "libs/SFML/lib/libsfml-window.a"
 		},
 		{
-			"path" : "libs/SFML/lib/sfml-window-d.pdb"
+			"path" : "libs/SFML/lib/sfml-window.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -21,7 +21,8 @@
 			"install",
 			"target_link_libraries",
 			"add_definitions",
-			"target_include_directories"
+			"target_include_directories",
+			"target_sources"
 		],
 		"files" : 
 		[
@@ -36,62 +37,68 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 228,
+				"line" : 237,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 46,
+				"line" : 63,
 				"parent" : 1
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 161,
+				"line" : 197,
 				"parent" : 1
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 230,
+				"line" : 239,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 279,
+				"line" : 292,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 81,
+				"line" : 83,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 168,
+				"line" : 204,
 				"parent" : 1
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 265,
+				"line" : 242,
 				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 250,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 1
 			}
 		]
 	},
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"defines" : 
 			[
 				{
@@ -110,15 +117,19 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/mingw"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/glad/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/vulkan"
 				}
 			],
 			"language" : "CXX",
@@ -127,27 +138,71 @@
 				1,
 				3,
 				5,
-				9,
-				11,
-				17,
-				19,
-				22,
-				24,
+				8,
+				10,
+				13,
+				15,
+				21,
+				23,
 				26,
 				28,
 				30,
 				32,
-				35,
-				38,
-				42,
-				44,
-				45,
-				47,
-				49,
-				51,
-				54,
+				34,
+				36,
+				39,
+				41,
+				43,
+				46,
+				50,
+				52,
+				53,
 				55,
-				56
+				57,
+				60,
+				61,
+				62,
+				64
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"define" : "SFML_WINDOW_EXPORTS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/glad/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/vulkan"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				66
 			]
 		}
 	],
@@ -191,7 +246,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\..\\..\\lib\\libsfml-system-d.a",
+				"fragment" : "..\\..\\..\\lib\\libsfml-system.a",
 				"role" : "libraries"
 			},
 			{
@@ -209,10 +264,6 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lglu32",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
@@ -220,7 +271,7 @@
 		"language" : "CXX"
 	},
 	"name" : "sfml-window",
-	"nameOnDisk" : "sfml-window-d-2.dll",
+	"nameOnDisk" : "sfml-window-2.dll",
 	"paths" : 
 	{
 		"build" : "libs/SFML/src/SFML/Window",
@@ -272,13 +323,7 @@
 				37,
 				38,
 				39,
-				40
-			]
-		},
-		{
-			"name" : "windows",
-			"sourceIndexes" : 
-			[
+				40,
 				41,
 				42,
 				43,
@@ -287,6 +332,13 @@
 				46,
 				47,
 				48,
+				66
+			]
+		},
+		{
+			"name" : "windows",
+			"sourceIndexes" : 
+			[
 				49,
 				50,
 				51,
@@ -295,7 +347,15 @@
 				54,
 				55,
 				56,
-				57
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65
 			]
 		}
 	],
@@ -342,6 +402,28 @@
 		{
 			"backtrace" : 2,
 			"path" : "libs/SFML/src/SFML/Window/CursorImpl.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/SFML/src/SFML/Window/EGLCheck.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "libs/SFML/src/SFML/Window/EGLCheck.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/SFML/src/SFML/Window/EglContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "libs/SFML/src/SFML/Window/EglContext.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -492,12 +574,34 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
+			"path" : "libs/SFML/src/SFML/Window/Vulkan.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "libs/SFML/include/SFML/Window/Vulkan.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
 			"path" : "libs/SFML/src/SFML/Window/Window.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"path" : "libs/SFML/include/SFML/Window/Window.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "libs/SFML/src/SFML/Window/WindowBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "libs/SFML/include/SFML/Window/WindowBase.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -557,17 +661,6 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "libs/SFML/src/SFML/Window/Win32/WglExtensions.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"path" : "libs/SFML/src/SFML/Window/Win32/WglExtensions.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
 			"path" : "libs/SFML/src/SFML/Window/Win32/InputImpl.cpp",
 			"sourceGroupIndex" : 1
 		},
@@ -607,6 +700,17 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
+			"path" : "libs/SFML/src/SFML/Window/Win32/VulkanImplWin32.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "libs/SFML/src/SFML/Window/Win32/VulkanImplWin32.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
 			"path" : "libs/SFML/src/SFML/Window/Win32/WindowImplWin32.cpp",
 			"sourceGroupIndex" : 1
 		},
@@ -614,6 +718,12 @@
 			"backtrace" : 2,
 			"path" : "libs/SFML/src/SFML/Window/Win32/WindowImplWin32.hpp",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "build/libs/SFML/src/SFML/Window/sfml-window.rc",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "SHARED_LIBRARY"

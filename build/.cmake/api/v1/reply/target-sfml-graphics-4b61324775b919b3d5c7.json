@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libs/SFML/lib/sfml-graphics-d-2.dll"
+			"path" : "libs/SFML/lib/sfml-graphics-2.dll"
 		},
 		{
-			"path" : "libs/SFML/lib/libsfml-graphics-d.a"
+			"path" : "libs/SFML/lib/libsfml-graphics.a"
 		},
 		{
-			"path" : "libs/SFML/lib/sfml-graphics-d.pdb"
+			"path" : "libs/SFML/lib/sfml-graphics.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -21,7 +21,8 @@
 			"install",
 			"target_link_libraries",
 			"target_compile_definitions",
-			"target_include_directories"
+			"target_include_directories",
+			"target_sources"
 		],
 		"files" : 
 		[
@@ -36,62 +37,68 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 93,
+				"line" : 89,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 46,
+				"line" : 63,
 				"parent" : 1
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 161,
+				"line" : 197,
 				"parent" : 1
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 97,
+				"line" : 93,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 141,
+				"line" : 130,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 168,
+				"line" : 204,
 				"parent" : 1
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 100,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 99,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 138,
+				"line" : 127,
 				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 1
 			}
 		]
 	},
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"defines" : 
 			[
 				{
@@ -106,19 +113,23 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/stb_image"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/freetype2"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/glad/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",
@@ -142,7 +153,7 @@
 				38,
 				40,
 				42,
-				44,
+				45,
 				47,
 				49,
 				51,
@@ -152,16 +163,12 @@
 				59,
 				61,
 				63,
-				65,
-				67
+				65
 			]
 		},
 		{
 			"compileCommandFragments" : 
 			[
-				{
-					"fragment" : "-g"
-				},
 				{
 					"fragment" : "-fno-strict-aliasing"
 				}
@@ -180,25 +187,69 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/stb_image"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/stb_image"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/extlibs/headers/freetype2"
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/glad/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/freetype2"
 				}
 			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
 				17
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"define" : "SFML_GRAPHICS_EXPORTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "STBI_FAILURE_USERMSG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/stb_image"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/glad/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/extlibs/headers/freetype2"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				67
 			]
 		}
 	],
@@ -246,23 +297,15 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\..\\..\\lib\\libsfml-window-d.a",
+				"fragment" : "..\\..\\..\\lib\\libsfml-window.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "..\\..\\..\\lib\\libsfml-system-d.a",
+				"fragment" : "..\\..\\..\\lib\\libsfml-system.a",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lopengl32",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-lglu32",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "..\\..\\..\\..\\..\\..\\libs\\SFML\\extlibs\\libs-mingw\\x86\\libfreetype.a",
+				"fragment" : "..\\..\\..\\..\\..\\..\\libs\\SFML\\extlibs\\libs-mingw\\x64\\libfreetype.a",
 				"role" : "libraries"
 			},
 			{
@@ -273,7 +316,7 @@
 		"language" : "CXX"
 	},
 	"name" : "sfml-graphics",
-	"nameOnDisk" : "sfml-graphics-d-2.dll",
+	"nameOnDisk" : "sfml-graphics-2.dll",
 	"paths" : 
 	{
 		"build" : "libs/SFML/src/SFML/Graphics",
@@ -329,14 +372,15 @@
 				41,
 				42,
 				43,
-				44,
-				45
+				67
 			]
 		},
 		{
 			"name" : "drawables",
 			"sourceIndexes" : 
 			[
+				44,
+				45,
 				46,
 				47,
 				48,
@@ -351,21 +395,19 @@
 				57,
 				58,
 				59,
-				60,
-				61,
-				62
+				60
 			]
 		},
 		{
 			"name" : "render texture",
 			"sourceIndexes" : 
 			[
+				61,
+				62,
 				63,
 				64,
 				65,
-				66,
-				67,
-				68
+				66
 			]
 		}
 	],
@@ -612,17 +654,6 @@
 		},
 		{
 			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "libs/SFML/src/SFML/Graphics/GLLoader.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "libs/SFML/src/SFML/Graphics/GLLoader.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
 			"path" : "libs/SFML/include/SFML/Graphics/Drawable.hpp",
 			"sourceGroupIndex" : 1
 		},
@@ -746,6 +777,12 @@
 			"backtrace" : 2,
 			"path" : "libs/SFML/src/SFML/Graphics/RenderTextureImplDefault.hpp",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 2,
+			"path" : "build/libs/SFML/src/SFML/Graphics/sfml-graphics.rc",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "SHARED_LIBRARY"

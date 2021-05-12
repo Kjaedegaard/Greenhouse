@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode
+CMAKE_SOURCE_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build
+CMAKE_BINARY_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build
 
 # Include any dependencies generated for this target.
 include libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/depend.make
@@ -72,241 +72,246 @@ libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj: libs/SFML/sr
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj: ../libs/SFML/src/SFML/System/Clock.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj -MF CMakeFiles\sfml-system.dir\Clock.cpp.obj.d -o CMakeFiles\sfml-system.dir\Clock.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj -MF CMakeFiles\sfml-system.dir\Clock.cpp.obj.d -o CMakeFiles\sfml-system.dir\Clock.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Clock.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Clock.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Clock.cpp > CMakeFiles\sfml-system.dir\Clock.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Clock.cpp > CMakeFiles\sfml-system.dir\Clock.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Clock.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Clock.cpp -o CMakeFiles\sfml-system.dir\Clock.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Clock.cpp -o CMakeFiles\sfml-system.dir\Clock.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj: ../libs/SFML/src/SFML/System/Err.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj -MF CMakeFiles\sfml-system.dir\Err.cpp.obj.d -o CMakeFiles\sfml-system.dir\Err.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Err.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj -MF CMakeFiles\sfml-system.dir\Err.cpp.obj.d -o CMakeFiles\sfml-system.dir\Err.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Err.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Err.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Err.cpp > CMakeFiles\sfml-system.dir\Err.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Err.cpp > CMakeFiles\sfml-system.dir\Err.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Err.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Err.cpp -o CMakeFiles\sfml-system.dir\Err.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Err.cpp -o CMakeFiles\sfml-system.dir\Err.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj: ../libs/SFML/src/SFML/System/Lock.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj -MF CMakeFiles\sfml-system.dir\Lock.cpp.obj.d -o CMakeFiles\sfml-system.dir\Lock.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Lock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj -MF CMakeFiles\sfml-system.dir\Lock.cpp.obj.d -o CMakeFiles\sfml-system.dir\Lock.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Lock.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Lock.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Lock.cpp > CMakeFiles\sfml-system.dir\Lock.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Lock.cpp > CMakeFiles\sfml-system.dir\Lock.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Lock.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Lock.cpp -o CMakeFiles\sfml-system.dir\Lock.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Lock.cpp -o CMakeFiles\sfml-system.dir\Lock.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj: ../libs/SFML/src/SFML/System/Mutex.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj -MF CMakeFiles\sfml-system.dir\Mutex.cpp.obj.d -o CMakeFiles\sfml-system.dir\Mutex.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj -MF CMakeFiles\sfml-system.dir\Mutex.cpp.obj.d -o CMakeFiles\sfml-system.dir\Mutex.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Mutex.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Mutex.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Mutex.cpp > CMakeFiles\sfml-system.dir\Mutex.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Mutex.cpp > CMakeFiles\sfml-system.dir\Mutex.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Mutex.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Mutex.cpp -o CMakeFiles\sfml-system.dir\Mutex.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Mutex.cpp -o CMakeFiles\sfml-system.dir\Mutex.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj: ../libs/SFML/src/SFML/System/Sleep.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj -MF CMakeFiles\sfml-system.dir\Sleep.cpp.obj.d -o CMakeFiles\sfml-system.dir\Sleep.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Sleep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj -MF CMakeFiles\sfml-system.dir\Sleep.cpp.obj.d -o CMakeFiles\sfml-system.dir\Sleep.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Sleep.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Sleep.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Sleep.cpp > CMakeFiles\sfml-system.dir\Sleep.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Sleep.cpp > CMakeFiles\sfml-system.dir\Sleep.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Sleep.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Sleep.cpp -o CMakeFiles\sfml-system.dir\Sleep.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Sleep.cpp -o CMakeFiles\sfml-system.dir\Sleep.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj: ../libs/SFML/src/SFML/System/String.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj -MF CMakeFiles\sfml-system.dir\String.cpp.obj.d -o CMakeFiles\sfml-system.dir\String.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\String.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj -MF CMakeFiles\sfml-system.dir\String.cpp.obj.d -o CMakeFiles\sfml-system.dir\String.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\String.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/String.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\String.cpp > CMakeFiles\sfml-system.dir\String.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\String.cpp > CMakeFiles\sfml-system.dir\String.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/String.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\String.cpp -o CMakeFiles\sfml-system.dir\String.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\String.cpp -o CMakeFiles\sfml-system.dir\String.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj: ../libs/SFML/src/SFML/System/Thread.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj -MF CMakeFiles\sfml-system.dir\Thread.cpp.obj.d -o CMakeFiles\sfml-system.dir\Thread.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj -MF CMakeFiles\sfml-system.dir\Thread.cpp.obj.d -o CMakeFiles\sfml-system.dir\Thread.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Thread.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Thread.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Thread.cpp > CMakeFiles\sfml-system.dir\Thread.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Thread.cpp > CMakeFiles\sfml-system.dir\Thread.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Thread.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Thread.cpp -o CMakeFiles\sfml-system.dir\Thread.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Thread.cpp -o CMakeFiles\sfml-system.dir\Thread.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj: ../libs/SFML/src/SFML/System/ThreadLocal.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj -MF CMakeFiles\sfml-system.dir\ThreadLocal.cpp.obj.d -o CMakeFiles\sfml-system.dir\ThreadLocal.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\ThreadLocal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj -MF CMakeFiles\sfml-system.dir\ThreadLocal.cpp.obj.d -o CMakeFiles\sfml-system.dir\ThreadLocal.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\ThreadLocal.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/ThreadLocal.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\ThreadLocal.cpp > CMakeFiles\sfml-system.dir\ThreadLocal.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\ThreadLocal.cpp > CMakeFiles\sfml-system.dir\ThreadLocal.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/ThreadLocal.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\ThreadLocal.cpp -o CMakeFiles\sfml-system.dir\ThreadLocal.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\ThreadLocal.cpp -o CMakeFiles\sfml-system.dir\ThreadLocal.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj: ../libs/SFML/src/SFML/System/Time.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj -MF CMakeFiles\sfml-system.dir\Time.cpp.obj.d -o CMakeFiles\sfml-system.dir\Time.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj -MF CMakeFiles\sfml-system.dir\Time.cpp.obj.d -o CMakeFiles\sfml-system.dir\Time.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Time.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Time.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Time.cpp > CMakeFiles\sfml-system.dir\Time.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Time.cpp > CMakeFiles\sfml-system.dir\Time.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Time.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Time.cpp -o CMakeFiles\sfml-system.dir\Time.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Time.cpp -o CMakeFiles\sfml-system.dir\Time.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj: ../libs/SFML/src/SFML/System/FileInputStream.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj -MF CMakeFiles\sfml-system.dir\FileInputStream.cpp.obj.d -o CMakeFiles\sfml-system.dir\FileInputStream.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\FileInputStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj -MF CMakeFiles\sfml-system.dir\FileInputStream.cpp.obj.d -o CMakeFiles\sfml-system.dir\FileInputStream.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\FileInputStream.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/FileInputStream.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\FileInputStream.cpp > CMakeFiles\sfml-system.dir\FileInputStream.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\FileInputStream.cpp > CMakeFiles\sfml-system.dir\FileInputStream.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/FileInputStream.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\FileInputStream.cpp -o CMakeFiles\sfml-system.dir\FileInputStream.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\FileInputStream.cpp -o CMakeFiles\sfml-system.dir\FileInputStream.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj: ../libs/SFML/src/SFML/System/MemoryInputStream.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj -MF CMakeFiles\sfml-system.dir\MemoryInputStream.cpp.obj.d -o CMakeFiles\sfml-system.dir\MemoryInputStream.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\MemoryInputStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj -MF CMakeFiles\sfml-system.dir\MemoryInputStream.cpp.obj.d -o CMakeFiles\sfml-system.dir\MemoryInputStream.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\MemoryInputStream.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\MemoryInputStream.cpp > CMakeFiles\sfml-system.dir\MemoryInputStream.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\MemoryInputStream.cpp > CMakeFiles\sfml-system.dir\MemoryInputStream.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\MemoryInputStream.cpp -o CMakeFiles\sfml-system.dir\MemoryInputStream.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\MemoryInputStream.cpp -o CMakeFiles\sfml-system.dir\MemoryInputStream.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj: ../libs/SFML/src/SFML/System/Win32/ClockImpl.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\ClockImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\ClockImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\ClockImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\ClockImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\ClockImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\ClockImpl.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\ClockImpl.cpp > CMakeFiles\sfml-system.dir\Win32\ClockImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\ClockImpl.cpp > CMakeFiles\sfml-system.dir\Win32\ClockImpl.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\ClockImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\ClockImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\ClockImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\ClockImpl.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj: ../libs/SFML/src/SFML/System/Win32/MutexImpl.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\MutexImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\MutexImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\MutexImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\MutexImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\MutexImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\MutexImpl.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\MutexImpl.cpp > CMakeFiles\sfml-system.dir\Win32\MutexImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\MutexImpl.cpp > CMakeFiles\sfml-system.dir\Win32\MutexImpl.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\MutexImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\MutexImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\MutexImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\MutexImpl.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj: ../libs/SFML/src/SFML/System/Win32/SleepImpl.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\SleepImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\SleepImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\SleepImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\SleepImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\SleepImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\SleepImpl.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\SleepImpl.cpp > CMakeFiles\sfml-system.dir\Win32\SleepImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\SleepImpl.cpp > CMakeFiles\sfml-system.dir\Win32\SleepImpl.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\SleepImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\SleepImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\SleepImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\SleepImpl.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj: ../libs/SFML/src/SFML/System/Win32/ThreadImpl.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\ThreadImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\ThreadImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\ThreadImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\ThreadImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\ThreadImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\ThreadImpl.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\ThreadImpl.cpp > CMakeFiles\sfml-system.dir\Win32\ThreadImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\ThreadImpl.cpp > CMakeFiles\sfml-system.dir\Win32\ThreadImpl.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\ThreadImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\ThreadImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\ThreadImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\ThreadImpl.cpp.s
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/includes_CXX.rsp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj: ../libs/SFML/src/SFML/System/Win32/ThreadLocalImpl.cpp
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\ThreadLocalImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\ThreadLocalImpl.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\ThreadLocalImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj -MF CMakeFiles\sfml-system.dir\Win32\ThreadLocalImpl.cpp.obj.d -o CMakeFiles\sfml-system.dir\Win32\ThreadLocalImpl.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\ThreadLocalImpl.cpp
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\ThreadLocalImpl.cpp > CMakeFiles\sfml-system.dir\Win32\ThreadLocalImpl.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\ThreadLocalImpl.cpp > CMakeFiles\sfml-system.dir\Win32\ThreadLocalImpl.cpp.i
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System\Win32\ThreadLocalImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\ThreadLocalImpl.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System\Win32\ThreadLocalImpl.cpp -o CMakeFiles\sfml-system.dir\Win32\ThreadLocalImpl.cpp.s
+
+libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/sfml-system.rc.obj: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/flags.make
+libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/sfml-system.rc.obj: libs/SFML/src/SFML/System/sfml-system.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building RC object libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/sfml-system.rc.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System\sfml-system.rc CMakeFiles\sfml-system.dir\sfml-system.rc.obj
 
 # Object files for target sfml-system
 sfml__system_OBJECTS = \
@@ -325,43 +330,45 @@ sfml__system_OBJECTS = \
 "CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj" \
 "CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj" \
 "CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj" \
-"CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj"
+"CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj" \
+"CMakeFiles/sfml-system.dir/sfml-system.rc.obj"
 
 # External object files for target sfml-system
 sfml__system_EXTERNAL_OBJECTS =
 
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build.make
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/linklibs.rsp
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/objects1.rsp
-libs/SFML/lib/sfml-system-d-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library ..\..\..\lib\sfml-system-d-2.dll"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-system.dir\link.txt --verbose=$(VERBOSE)
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/sfml-system.rc.obj
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build.make
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/linklibs.rsp
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/objects1.rsp
+libs/SFML/lib/sfml-system-2.dll: libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library ..\..\..\lib\sfml-system-2.dll"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-system.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build: libs/SFML/lib/sfml-system-d-2.dll
+libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build: libs/SFML/lib/sfml-system-2.dll
 .PHONY : libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/clean:
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System && $(CMAKE_COMMAND) -P CMakeFiles\sfml-system.dir\cmake_clean.cmake
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System && $(CMAKE_COMMAND) -P CMakeFiles\sfml-system.dir\cmake_clean.cmake
 .PHONY : libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/clean
 
 libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\magnu\OneDrive\Skrivebord\Uni_kode C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\SFML\src\SFML\System C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\SFML\src\SFML\System\CMakeFiles\sfml-system.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\SFML\src\SFML\System C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\SFML\src\SFML\System\CMakeFiles\sfml-system.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/depend
 

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode
+CMAKE_SOURCE_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build
+CMAKE_BINARY_DIR = C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build
 
 # Include any dependencies generated for this target.
 include libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/depend.make
@@ -72,91 +72,91 @@ libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj: libs/imgui-sfml/CM
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/includes_CXX.rsp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj: ../libs/imgui-sfml/imgui-SFML.cpp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\imgui-SFML.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\imgui-SFML.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui-sfml\imgui-SFML.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\imgui-SFML.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\imgui-SFML.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui-sfml\imgui-SFML.cpp
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui-sfml\imgui-SFML.cpp > CMakeFiles\ImGui-SFML.dir\imgui-SFML.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui-sfml\imgui-SFML.cpp > CMakeFiles\ImGui-SFML.dir\imgui-SFML.cpp.i
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui-sfml\imgui-SFML.cpp -o CMakeFiles\ImGui-SFML.dir\imgui-SFML.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui-sfml\imgui-SFML.cpp -o CMakeFiles\ImGui-SFML.dir\imgui-SFML.cpp.s
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/flags.make
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/includes_CXX.rsp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj: ../libs/imgui/imgui.cpp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\imgui.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\imgui.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui.cpp
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\imgui.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\imgui.cpp.i
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui.cpp.s
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/flags.make
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/includes_CXX.rsp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj: ../libs/imgui/imgui_draw.cpp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_draw.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_draw.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui_draw.cpp
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui_draw.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_draw.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui_draw.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_draw.cpp.i
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui_draw.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_draw.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui_draw.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_draw.cpp.s
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/flags.make
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/includes_CXX.rsp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj: ../libs/imgui/imgui_tables.cpp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_tables.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_tables.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui_tables.cpp
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui_tables.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_tables.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui_tables.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_tables.cpp.i
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui_tables.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_tables.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui_tables.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_tables.cpp.s
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/flags.make
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/includes_CXX.rsp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj: ../libs/imgui/imgui_widgets.cpp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_widgets.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_widgets.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui_widgets.cpp
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui_widgets.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_widgets.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui_widgets.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_widgets.cpp.i
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\imgui_widgets.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_widgets.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\imgui_widgets.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\imgui_widgets.cpp.s
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/flags.make
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/includes_CXX.rsp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj: ../libs/imgui/misc/cpp/imgui_stdlib.cpp
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\misc\cpp\imgui_stdlib.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\misc\cpp\imgui_stdlib.cpp.obj -c C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\misc\cpp\imgui_stdlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj -MF CMakeFiles\ImGui-SFML.dir\__\imgui\misc\cpp\imgui_stdlib.cpp.obj.d -o CMakeFiles\ImGui-SFML.dir\__\imgui\misc\cpp\imgui_stdlib.cpp.obj -c C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\misc\cpp\imgui_stdlib.cpp
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.i"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\misc\cpp\imgui_stdlib.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\misc\cpp\imgui_stdlib.cpp.i
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\misc\cpp\imgui_stdlib.cpp > CMakeFiles\ImGui-SFML.dir\__\imgui\misc\cpp\imgui_stdlib.cpp.i
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.s"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui\misc\cpp\imgui_stdlib.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\misc\cpp\imgui_stdlib.cpp.s
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui\misc\cpp\imgui_stdlib.cpp -o CMakeFiles\ImGui-SFML.dir\__\imgui\misc\cpp\imgui_stdlib.cpp.s
 
 # Object files for target ImGui-SFML
 ImGui__SFML_OBJECTS = \
@@ -170,31 +170,31 @@ ImGui__SFML_OBJECTS = \
 # External object files for target ImGui-SFML
 ImGui__SFML_EXTERNAL_OBJECTS =
 
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/build.make
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/SFML/lib/libsfml-graphics-d.a
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/SFML/lib/libsfml-window-d.a
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/SFML/lib/libsfml-system-d.a
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/linklibs.rsp
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/objects1.rsp
-libs/imgui-sfml/libImGui-SFML_d.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libImGui-SFML_d.dll"
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ImGui-SFML.dir\link.txt --verbose=$(VERBOSE)
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui.cpp.obj
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_draw.cpp.obj
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_tables.cpp.obj
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/imgui_widgets.cpp.obj
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/__/imgui/misc/cpp/imgui_stdlib.cpp.obj
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/build.make
+libs/imgui-sfml/libImGui-SFML.dll: libs/SFML/lib/libsfml-graphics.a
+libs/imgui-sfml/libImGui-SFML.dll: libs/SFML/lib/libsfml-window.a
+libs/imgui-sfml/libImGui-SFML.dll: libs/SFML/lib/libsfml-system.a
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/linklibs.rsp
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/objects1.rsp
+libs/imgui-sfml/libImGui-SFML.dll: libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libImGui-SFML.dll"
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ImGui-SFML.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/build: libs/imgui-sfml/libImGui-SFML_d.dll
+libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/build: libs/imgui-sfml/libImGui-SFML.dll
 .PHONY : libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/build
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/clean:
-	cd /d C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml && $(CMAKE_COMMAND) -P CMakeFiles\ImGui-SFML.dir\cmake_clean.cmake
+	cd /d C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml && $(CMAKE_COMMAND) -P CMakeFiles\ImGui-SFML.dir\cmake_clean.cmake
 .PHONY : libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/clean
 
 libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\magnu\OneDrive\Skrivebord\Uni_kode C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\libs\imgui-sfml C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml C:\Users\magnu\OneDrive\Skrivebord\Uni_kode\build\libs\imgui-sfml\CMakeFiles\ImGui-SFML.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\libs\imgui-sfml C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml C:\Users\alexander\Desktop\Codeopgaver\SSPMiniproject\Greenhouse\build\libs\imgui-sfml\CMakeFiles\ImGui-SFML.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/imgui-sfml/CMakeFiles/ImGui-SFML.dir/depend
 

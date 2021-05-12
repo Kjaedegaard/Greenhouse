@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/src/SFML/Main/MainWin32.cpp" "libs/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj" "gcc" "libs/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj.d"
+  "C:/Users/alexander/Desktop/Codeopgaver/SSPMiniproject/Greenhouse/libs/SFML/src/SFML/Main/MainWin32.cpp" "libs/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj" "gcc" "libs/SFML/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj.d"
   )
 
 # Targets to which this target links.
