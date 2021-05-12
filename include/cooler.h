@@ -4,7 +4,10 @@
 class Cooler : public Actuator
 {
 private:
-    //void draw_actuator(sf::RenderWindow& window) override;
+
+    sf::RectangleShape actuator;
+
+    void draw_actuator() override;
     void update_actuator(int regulator_state) override;
 public:
     Cooler() : Actuator(-0.6){};
