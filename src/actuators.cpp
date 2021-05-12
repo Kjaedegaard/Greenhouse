@@ -5,15 +5,13 @@
 #include<actuator.h>
 
 void Humidifier::update_actuator(int regulator_state){
-    if(regulator_state == 2){
+    if(regulator_state == 3){
         actuator_state = true;
     }
     else{
         actuator_state = false;
     }
-
 }
-
 
 void Humidifier::draw_actuator(){
     actuator.setPosition(sf::Vector2f{20,20});
@@ -40,16 +38,6 @@ void Dehumidifier::draw_actuator(){
 }
 
 void Dehumidifier::update_actuator(int regulator_state){
-    if(regulator_state == 3){
-        actuator_state = true;
-    }
-    else{
-        actuator_state = false;
-    }
-
-}
-
-void Heater::update_actuator(int regulator_state){
     if(regulator_state == 2){
         actuator_state = true;
     }
@@ -59,8 +47,18 @@ void Heater::update_actuator(int regulator_state){
 
 }
 
-void Cooler::update_actuator(int regulator_state){
+void Heater::update_actuator(int regulator_state){
     if(regulator_state == 3){
+        actuator_state = true;
+    }
+    else{
+        actuator_state = false;
+    }
+
+}
+
+void Cooler::update_actuator(int regulator_state){
+    if(regulator_state == 2){
         actuator_state = true;
     }
     else{

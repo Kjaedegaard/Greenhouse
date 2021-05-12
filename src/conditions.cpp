@@ -40,6 +40,6 @@ void Condition::update_condition(){
 }
 
 void Condition::update(std::vector<double> actuator_info){
-    actuator_info = actuator_info;
+    actuator_informations = actuator_info;
     update_condition();
 }
