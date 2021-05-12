@@ -36,23 +36,23 @@ void Tomato_plant::grow(){
         
 
         // create branch if height is fitting. branches height is fixed
-        if(49 < height and height < 50){
+        if(49 < height && height < 50){
             create_branch(1);
             height = height + 1;
         }
-        else if (74 < height and height < 75){
+        else if (74 < height && height < 75){
             create_branch(2);
             height = height + 1;
         }
-        else if (104 < height and height < 105){
+        else if (104 < height && height < 105){
             create_branch(1);
             height = height + 1;
         }
-        else if (144 < height and height < 145) {
+        else if (144 < height && height < 145) {
             create_branch(2);
             height = height + 1;
         }
-        else if (173 < height and height < 174){
+        else if (173 < height && height < 174){
             create_branch(1);
             height = height + 1;
         }
@@ -61,7 +61,7 @@ void Tomato_plant::grow(){
     }
 
     // if living conditions is lower than 80 the plant wont grow and the color of the stalk will change to yellow
-    else if (living_conditions >= 50 and living_conditions <= 80)
+    else if (living_conditions >= 50 && living_conditions <= 80)
     {
         plant_base.setFillColor(sf::Color::Yellow);
     }
