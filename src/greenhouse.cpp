@@ -174,7 +174,6 @@ int main(int argc, char const *argv[])
 
         // draw everything here...
 
-
         window.draw(title1);
         window.draw(title2);
         humdiagram1.update_diagram(window, humidity_sensor1.get_sensor_value());
