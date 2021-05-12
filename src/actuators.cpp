@@ -14,11 +14,30 @@ void Humidifier::update_actuator(int regulator_state){
 
 }
 
-/*
-void Humidifier::draw_actuator(sf::RenderWindow& window){
-    int k = 0;
+
+void Humidifier::draw_actuator(){
+    actuator.setPosition(sf::Vector2f{20,20});
+    actuator.setSize(sf::Vector2f{30,10});
+    actuator.setFillColor(sf::Color::Red);
 }
-*/
+
+void Heater::draw_actuator(){
+    actuator.setPosition(sf::Vector2f{20,20});
+    actuator.setSize(sf::Vector2f{30,10});
+    actuator.setFillColor(sf::Color::Red);
+}
+
+void Cooler::draw_actuator(){
+    actuator.setPosition(sf::Vector2f{20,20});
+    actuator.setSize(sf::Vector2f{30,10});
+    actuator.setFillColor(sf::Color::Red);
+}
+
+void Dehumidifier::draw_actuator(){
+    actuator.setPosition(sf::Vector2f{20,20});
+    actuator.setSize(sf::Vector2f{30,10});
+    actuator.setFillColor(sf::Color::Red);
+}
 
 void Dehumidifier::update_actuator(int regulator_state){
     if(regulator_state == 3){

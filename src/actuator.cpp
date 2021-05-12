@@ -2,6 +2,8 @@
 
 Actuator::Actuator(double _power){
     power = _power;
+    //draw_actuator();
+
 }
 
 double Actuator::actuate(int regulator_state){
@@ -13,6 +15,6 @@ double Actuator::actuate(int regulator_state){
     else{
         return 0;
     }
-    //draw_actuator(sf::RenderWindow& window);
+    draw_actuator();
 
 }
