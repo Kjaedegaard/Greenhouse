@@ -4,14 +4,10 @@
 class Heater : public Actuator
 {
 private:
-
-    sf::RectangleShape actuator;
-
-    void draw_actuator() override;
     void update_actuator(int regulator_state) override;
 public:
-    Heater() : Actuator(2){};
-    
+    Heater(std::vector<float> greenhouse_info, int section, int actuator_number) : Actuator(2, greenhouse_info, section, actuator_number){};
+    void draw_actuator(sf::RenderWindow& window) override;
 };
 
 

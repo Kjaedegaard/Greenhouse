@@ -224,6 +224,7 @@ CMakeFiles/greenhouse.dir/src/actuator.cpp.obj
  C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include/SFML/Graphics/Sprite.hpp
  C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include/SFML/Graphics/Text.hpp
  C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/libs/SFML/include/SFML/Graphics/VertexBuffer.hpp
+ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iostream
 
 CMakeFiles/greenhouse.dir/src/actuators.cpp.obj
  C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/src/actuators.cpp
@@ -452,6 +453,7 @@ CMakeFiles/greenhouse.dir/src/actuators.cpp.obj
  C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/include/dehumidifier.h
  C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/include/heater.h
  C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/include/cooler.h
+ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iostream
 
 CMakeFiles/greenhouse.dir/src/conditions.cpp.obj
  C:/Users/magnu/OneDrive/Skrivebord/Uni_kode/src/conditions.cpp

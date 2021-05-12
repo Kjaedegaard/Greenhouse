@@ -31,6 +31,7 @@ void condition_loop(Actuator& actuator1, Actuator& actuator2, Condition& conditi
     actuator_info.clear();
 }
 
+
 int main(int argc, char const *argv[])
 {   
 //setup
@@ -39,7 +40,8 @@ int main(int argc, char const *argv[])
     unsigned int microseconds = 250000;
 
     //create greenhouse
-    Greenhouse_graphics greenhouse_graphics;
+    std::vector<float> greenhouse_info{230,95,300};
+    Greenhouse_graphics greenhouse_graphics(greenhouse_info);
 
     // create vectors with tomatoplants conditions
     std::vector<double> tomato_hum_conditions{42,50};
@@ -97,13 +99,12 @@ int main(int argc, char const *argv[])
     Diagram tempdiagram2(diagram2_pos,3,std::string( "T\ne\nm\np\ne\nr\na\nt\nu\nr\ne"), sf::Color::Red, std::string("C"));
     Diagram livcondiagram2(diagram2_pos,1,std::string("L\ni\nv\ni\nn\ng\n \nc\no\nn\nd\ni\nt\ni\no\nn\ns\n"), sf::Color::Blue, std::string("%"));
 
-
     // Create humidity1 loop objects
     Condition humidity1(33,0.4);
     SensorSim humidity_sensor1;
     Regulator humidity_regulator1(plant1.get_opt_hum_conditions());
-    Humidifier humidifier1;
-    Dehumidifier dehumidifier1;
+    Humidifier humidifier1(greenhouse_info, 1, 1);
+    Dehumidifier dehumidifier1(greenhouse_info, 1, 2);
     
     // loop will look like condition_loop(humidifier, dehumidifier, humidity, humidity_sensor, humidity_regulator)
 
@@ -111,36 +112,30 @@ int main(int argc, char const *argv[])
     Condition temperature1(18, 0.4);
     SensorSim temperature_sensor1;
     Regulator temperature_regulator1(plant1.get_opt_temp_conditions());
-    Cooler cooler1;
-    Heater heater1;
+    Cooler cooler1(greenhouse_info, 1, 3);
+    Heater heater1(greenhouse_info, 1, 4);
+    
 
     // Create humidity2 loop objects
     Condition humidity2(33,0.4);
     SensorSim humidity_sensor2;
     Regulator humidity_regulator2(plant2.get_opt_hum_conditions());
-    Humidifier humidifier2;
-    Dehumidifier dehumidifier2;
+    Humidifier humidifier2(greenhouse_info, 2, 1);
+    Dehumidifier dehumidifier2(greenhouse_info, 2, 2);
     
     // loop will look like condition_loop(humidifier, dehumidifier, humidity, humidity_sensor, humidity_regulator)
 
-    // create temperature loop objects
+    // create temperature2 loop objects
     Condition temperature2(18, 0.4);
     SensorSim temperature_sensor2;
     Regulator temperature_regulator2(plant2.get_opt_temp_conditions());
-    Cooler cooler2;
-    Heater heater2;
+    Cooler cooler2(greenhouse_info, 2, 3);
+    Heater heater2(greenhouse_info, 2, 4);
 
     // loop will look like: condition_loop(heater, cooler, temperature, temperature_sensor, temperature_regulator)
 
     std::vector<int> reg_states1;
     std::vector<int> reg_states2;
-
-/*
-    // Create regulators - they take the optimal conditions determined when creating the plant -
-    Regulator Humidity_reg(plant1.get_opt_hum_conditions()); 
-    Regulator Temp_reg(plant1.get_opt_temp_conditions());
-    
-*/
 
     // create the window
     sf::RenderWindow window(sf::VideoMode(800, 600), "Tomato simulator");
@@ -182,6 +177,8 @@ int main(int argc, char const *argv[])
         window.clear(sf::Color::Black);
 
         // draw everything here...
+
+
         window.draw(title1);
         window.draw(title2);
         humdiagram1.update_diagram(window, humidity_sensor1.get_sensor_value());
@@ -192,9 +189,21 @@ int main(int argc, char const *argv[])
         tempdiagram2.update_diagram(window, temperature_sensor2.get_sensor_value());
         livcondiagram2.update_diagram(window, plant2.get_living_conditions());
 
+        humidifier1.draw_actuator(window);
+        humidifier2.draw_actuator(window);
 
+        dehumidifier1.draw_actuator(window);
+        dehumidifier2.draw_actuator(window);
+
+        heater1.draw_actuator(window);
+        heater2.draw_actuator(window);
+
+        cooler1.draw_actuator(window);
+        cooler2.draw_actuator(window);
+        
         plant1.update_tomato(window);
         plant2.update_tomato(window);
+
         greenhouse_graphics.draw(window);
 
         // end the current frame

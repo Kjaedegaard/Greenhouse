@@ -4,12 +4,8 @@
 class Humidifier : public Actuator
 {
 private:
-
-    sf::RectangleShape actuator;
-
-    void draw_actuator() override;
     void update_actuator(int regulator_state) override;
 public:
-    Humidifier() : Actuator(5){};
-    
+    Humidifier(std::vector<float> greenhouse_info, int section, int actuator_number) : Actuator(5, greenhouse_info, section, actuator_number){};
+    void draw_actuator(sf::RenderWindow& window) override;
 };

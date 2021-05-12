@@ -4,11 +4,8 @@
 class Cooler : public Actuator
 {
 private:
-
-    sf::RectangleShape actuator;
-
-    void draw_actuator() override;
     void update_actuator(int regulator_state) override;
 public:
-    Cooler() : Actuator(-0.6){};
+    Cooler(std::vector<float> greenhouse_info, int section, int actuator_number) : Actuator(-0.6, greenhouse_info, section, actuator_number){};
+    void draw_actuator(sf::RenderWindow& window) override;
 };

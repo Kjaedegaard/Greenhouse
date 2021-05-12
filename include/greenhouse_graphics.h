@@ -14,13 +14,10 @@ private:
     sf::RectangleShape wall1;
     sf::RectangleShape wall2;
     sf::RectangleShape wall3;
-    sf::RectangleShape wall4;
     sf::RectangleShape roof1;
-    sf::RectangleShape roof2;
 
-    
 public:
-    Greenhouse_graphics();
+    Greenhouse_graphics(std::vector<float> geenhouse_data);
     void draw(sf::RenderWindow& window);
 };
 
