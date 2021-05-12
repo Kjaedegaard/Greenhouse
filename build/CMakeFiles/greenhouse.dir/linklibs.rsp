@@ -1,1 +1,0 @@
- libs/imgui-sfml/libImGui-SFML.dll.a libs/SFML/lib/libsfml-graphics.a libs/SFML/lib/libsfml-window.a libs/SFML/lib/libsfml-system.a -lopengl32 -lglu32 -limm32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
