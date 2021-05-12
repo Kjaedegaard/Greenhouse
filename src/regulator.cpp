@@ -19,7 +19,7 @@ void Regulator::update(double sensor_value)
     else if(sensor_value >= regulator_goal_value[1]){
         regulator_state = 2;
     }
-    else if (sensor_value > regulator_goal_value[0] and sensor_value < regulator_goal_value[1]){
+    else if (sensor_value > regulator_goal_value[0] && sensor_value < regulator_goal_value[1]){
         regulator_state = 1;
     }
 }
