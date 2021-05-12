@@ -4,7 +4,7 @@
 class Humidifier : public Actuator
 {
 private:
-    void draw_actuator(sf::RenderWindow& window) override;
+    //void draw_actuator(sf::RenderWindow& window) override;
     void update_actuator(int regulator_state) override;
 public:
     Humidifier() : Actuator(5){};

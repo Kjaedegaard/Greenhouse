@@ -14,10 +14,11 @@ void Humidifier::update_actuator(int regulator_state){
 
 }
 
+/*
 void Humidifier::draw_actuator(sf::RenderWindow& window){
-    
+    int k = 0;
 }
-
+*/
 
 void Dehumidifier::update_actuator(int regulator_state){
     if(regulator_state == 3){

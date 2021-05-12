@@ -35,6 +35,7 @@ void Condition::update_condition(){
     update_random();
     for(auto &&i : actuator_informations){
         condition_value = condition_value + i;
+        std::cout << "actuator value "<< i << "\n";
     }
 }
 
