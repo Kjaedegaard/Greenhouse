@@ -4,7 +4,6 @@
 #include<SFML/Graphics.hpp>
 #include<SFML/Window.hpp>
 
-
 class Actuator
 {
 protected:
@@ -12,7 +11,7 @@ protected:
     int power;
     bool get_state(){return actuator_state;};
     virtual void update_actuator(int regulator_state) = 0;
-    //virtual void draw_actuator(sf::RenderWindow& window) = 0;
+    virtual void draw_actuator() = 0;
 
 public:
     Actuator(double _power);
