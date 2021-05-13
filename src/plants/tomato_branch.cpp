@@ -39,13 +39,13 @@ void Branch::grow(){
     int temporary_length = branch_lenght; // swich only takes values of typ integer, therefore the beanch lenght is change here. always round down
     switch (temporary_length)
     {
-    case 18:
+    case 20:
         set_tomato_pair();
         break;
-    case 34:
+    case 35:
         set_tomato_pair();
         break;
-    case 45:
+    case 50:
         set_tomato_pair();
         break;
     default:

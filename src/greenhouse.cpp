@@ -41,7 +41,7 @@ int main(int argc, char const *argv[])
 //setup
 
     // time element used to delay the program
-    unsigned int microseconds = 250000;
+    unsigned int microseconds = 500000;
 
     //create greenhouse
     std::vector<float> greenhouse_info{230,95,300};
@@ -77,14 +77,14 @@ int main(int argc, char const *argv[])
     // Draw title
     sf::Text title1;
     title1.setFont(font);
-    title1.setString("Current\nconditions:");
+    title1.setString("Current\nconditions 1:");
     title1.setCharacterSize(25);
     title1.setFillColor(sf::Color::White);
     title1.setPosition(sf::Vector2f{diagram1_pos[0]-10,diagram1_pos[1]-280});
 
     sf::Text title2;
     title2.setFont(font);
-    title2.setString("Current\nconditions 1:");
+    title2.setString("Current\nconditions 2:");
     title2.setCharacterSize(25);
     title2.setFillColor(sf::Color::White);
     title2.setPosition(sf::Vector2f{diagram2_pos[0]-10,diagram2_pos[1]-280});
@@ -100,7 +100,7 @@ int main(int argc, char const *argv[])
     Diagram livcondiagram2(diagram2_pos,1,std::string("L\ni\nv\ni\nn\ng\n \nc\no\nn\nd\ni\nt\ni\no\nn\ns\n"), sf::Color::Blue, std::string("%"));
 
     // Create humidity1 loop objects
-    Condition humidity1(33,0.5);
+    Condition humidity1(0,0.9);
     SensorSim humidity_sensor1;
     Regulator humidity_regulator1(plant1.get_opt_hum_conditions());
     Humidifier humidifier1(greenhouse_info, 1, 1);
@@ -109,7 +109,7 @@ int main(int argc, char const *argv[])
     // loop will look like condition_loop(humidifier, dehumidifier, humidity, humidity_sensor, humidity_regulator)
 
     // create temperature1 loop objects
-    Condition temperature1(18, 0.5);
+    Condition temperature1(0, 0.4);
     SensorSim temperature_sensor1;
     Regulator temperature_regulator1(plant1.get_opt_temp_conditions());
     Cooler cooler1(greenhouse_info, 1, 3);
@@ -118,7 +118,7 @@ int main(int argc, char const *argv[])
     // loop will look like: condition_loop(heater, cooler, temperature, temperature_sensor, temperature_regulator)
 
     // Create humidity2 loop objects
-    Condition humidity2(33,0.4);
+    Condition humidity2(100,0.8);
     SensorSim humidity_sensor2;
     Regulator humidity_regulator2(plant2.get_opt_hum_conditions());
     Humidifier humidifier2(greenhouse_info, 2, 1);
@@ -127,7 +127,7 @@ int main(int argc, char const *argv[])
     // loop will look like condition_loop(humidifier, dehumidifier, humidity, humidity_sensor, humidity_regulator)
 
     // create temperature2 loop objects
-    Condition temperature2(18, 0.4);
+    Condition temperature2(100, 0.6);
     SensorSim temperature_sensor2;
     Regulator temperature_regulator2(plant2.get_opt_temp_conditions());
     Cooler cooler2(greenhouse_info, 2, 3);

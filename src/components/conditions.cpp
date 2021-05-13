@@ -33,13 +33,13 @@ void Condition::update_random(){
 void Condition::update_condition(){
 
     update_random();
+
     for(auto &&i : actuator_informations){
         condition_value = condition_value + i;
-        //std::cout << "actuator value "<< i << "\n";
     }
 }
 
 void Condition::update(std::vector<double> actuator_info){
-    actuator_info = actuator_info;
+    actuator_informations = actuator_info;
     update_condition();
 }

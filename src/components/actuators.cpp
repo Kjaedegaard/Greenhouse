@@ -6,9 +6,9 @@
 #include<iostream>
 
 void Humidifier::update_actuator(int regulator_state){
-    if(regulator_state == 2){
+    if(regulator_state == 3){
         actuator_state = true;
-        std::cout << "humidifier on \n";
+        std::cout << "Hum power: " << power << "\n";
     }
     else{
         actuator_state = false;
@@ -23,16 +23,16 @@ void Humidifier::draw_actuator(sf::RenderWindow& window){
     else{
         actuator.setFillColor(sf::Color::Cyan);
     }
-    title.setString("H\nu\nm");
+    title.setString("H\nu\nm\ni");
     window.draw(title);
     window.draw(actuator);
 }
 
 
 void Dehumidifier::update_actuator(int regulator_state){
-    if(regulator_state == 3){
+    if(regulator_state == 2){
         actuator_state = true;
-        std::cout << "Dehumidifier on \n";
+        std::cout << "Dhum power: " << power << "\n";
     }
     else{
         actuator_state = false;
@@ -54,9 +54,9 @@ void Dehumidifier::draw_actuator(sf::RenderWindow& window){
 }
 
 void Heater::update_actuator(int regulator_state){
-    if(regulator_state == 2){
+    if(regulator_state == 3){
         actuator_state = true;
-        std::cout << "Heater on \n";
+        std::cout << "Heater power: " << power << "\n";
     }
     else{
         actuator_state = false;
@@ -78,9 +78,9 @@ void Heater::draw_actuator(sf::RenderWindow& window){
 }
 
 void Cooler::update_actuator(int regulator_state){
-    if(regulator_state == 3){
+    if(regulator_state == 2){
         actuator_state = true;
-        std::cout << "Cooler on \n";
+        std::cout << "Cooler power: " << power << "\n";
     }
     else{
         actuator_state = false;
