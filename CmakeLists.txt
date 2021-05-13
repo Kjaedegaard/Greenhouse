@@ -13,6 +13,6 @@ include_directories(include
                     libs/imgui-sfml
                     res/fonts)
 
-add_executable(greenhouse src/greenhouse.cpp src/regulator.cpp src/sensor_sim.cpp src/plant.cpp src/diagram.cpp src/tomato_plant.cpp src/tomato.cpp src/tomato_branch.cpp src/greenhouse_graphics.cpp src/conditions.cpp src/actuators.cpp src/actuator.cpp)
+add_executable(greenhouse src/greenhouse.cpp src/components/regulator.cpp src/components/sensor_sim.cpp src/plants/plant.cpp src/components/diagram.cpp src/plants/tomato_plant.cpp src/plants/tomato.cpp src/plants/tomato_branch.cpp src/plants/greenhouse_graphics.cpp src/components/conditions.cpp src/components/actuators.cpp src/components/actuator.cpp)
 
 target_link_libraries(greenhouse sfml-graphics sfml-system ImGui-SFML::ImGui-SFML)

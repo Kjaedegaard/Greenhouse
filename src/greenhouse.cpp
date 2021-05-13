@@ -1,4 +1,5 @@
 #include<iostream>
+
 #include<math.h>
 #include<vector>
 #include<unistd.h>
@@ -21,6 +22,9 @@
 #include<humidifier.h>
 #include<dehumidifier.h>
 
+#include<thread>
+
+// this functions takes a set of actuators, a conition, a sensor and a regulator adnd updates them
 void condition_loop(Actuator& actuator1, Actuator& actuator2, Condition& condition, SensorSim& sensor, Regulator& regulator){
     std::vector<double> actuator_info;
     sensor.update_sensor_value(condition.get_condition_value());
@@ -85,12 +89,12 @@ int main(int argc, char const *argv[])
     title2.setFillColor(sf::Color::White);
     title2.setPosition(sf::Vector2f{diagram2_pos[0]-10,diagram2_pos[1]-280});
 
-    // Create diagrams displaying conditions, one for each sensor/regulator pair
+    // Create diagrams 1 displaying conditions, one for each sensor/regulator pair
     Diagram humdiagram1(diagram1_pos,2,std::string( "H\nu\nm\ni\nd\ni\nt\ny"), sf::Color::Green,std::string("%"));
     Diagram tempdiagram1(diagram1_pos,3,std::string( "T\ne\nm\np\ne\nr\na\nt\nu\nr\ne"), sf::Color::Red, std::string("C"));
     Diagram livcondiagram1(diagram1_pos,1,std::string("L\ni\nv\ni\nn\ng\n \nc\no\nn\nd\ni\nt\ni\no\nn\ns\n"), sf::Color::Blue, std::string("%"));
     
-    // Create diagrams displaying conditions, one for each sensor/regulator pair
+    // Create diagrams 1 displaying conditions, one for each sensor/regulator pair
     Diagram humdiagram2(diagram2_pos,2,std::string( "H\nu\nm\ni\nd\ni\nt\ny"), sf::Color::Green,std::string("%"));
     Diagram tempdiagram2(diagram2_pos,3,std::string( "T\ne\nm\np\ne\nr\na\nt\nu\nr\ne"), sf::Color::Red, std::string("C"));
     Diagram livcondiagram2(diagram2_pos,1,std::string("L\ni\nv\ni\nn\ng\n \nc\no\nn\nd\ni\nt\ni\no\nn\ns\n"), sf::Color::Blue, std::string("%"));
@@ -111,6 +115,7 @@ int main(int argc, char const *argv[])
     Cooler cooler1(greenhouse_info, 1, 3);
     Heater heater1(greenhouse_info, 1, 4);
     
+    // loop will look like: condition_loop(heater, cooler, temperature, temperature_sensor, temperature_regulator)
 
     // Create humidity2 loop objects
     Condition humidity2(33,0.4);
@@ -150,14 +155,14 @@ int main(int argc, char const *argv[])
                 window.close();
         }
 
-        //condition loops
+        //condition loops updating all sensors, actuators,  conditions, and regulators
         condition_loop(humidifier1, dehumidifier1, humidity1, humidity_sensor1, humidity_regulator1);
         condition_loop(heater1, cooler1, temperature1, temperature_sensor1, temperature_regulator1);
 
         condition_loop(humidifier2, dehumidifier2, humidity2, humidity_sensor2, humidity_regulator2);
         condition_loop(heater2, cooler2, temperature2, temperature_sensor2, temperature_regulator2);
 
-        //update plant
+        //update plants
         reg_states1.clear();
         reg_states1.push_back(humidity_regulator1.get_state());
         reg_states1.push_back(temperature_regulator1.get_state());
@@ -206,7 +211,6 @@ int main(int argc, char const *argv[])
 
         // delay the loop to slow it down
         usleep(microseconds);
-        //sleep(1);
 
     }
     return 0;
