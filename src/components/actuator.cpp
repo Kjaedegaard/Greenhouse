@@ -3,7 +3,7 @@
 
 Actuator::Actuator(double _power, std::vector<float> greenhouse_info, int section, int actuator_number){
     power = _power;
-    init_actuator(greenhouse_info, section, actuator_number);
+    init_actuator(greenhouse_info, section, actuator_number);   
 
 }
 
@@ -25,4 +25,12 @@ void Actuator::init_actuator(std::vector<float> greenhouse_info, int section, in
     actuator.setPosition(sf::Vector2f{x_cord,y_cord});
     actuator.setSize(sf::Vector2f{actuator_size,30});
     actuator.setFillColor(sf::Color::Cyan);
+
+    if(!font.loadFromFile("Digitalt.ttf")){
+        std::cout << "Error loading font";
+    }
+
+    title.setFont(font);
+    title.setCharacterSize(14);
+    title.setPosition(sf::Vector2f{x_cord+actuator_size/2-5,y_cord-80});
 }

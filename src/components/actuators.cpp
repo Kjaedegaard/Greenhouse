@@ -23,6 +23,8 @@ void Humidifier::draw_actuator(sf::RenderWindow& window){
     else{
         actuator.setFillColor(sf::Color::Cyan);
     }
+    title.setString("H\nu\nm");
+    window.draw(title);
     window.draw(actuator);
 }
 
@@ -46,6 +48,8 @@ void Dehumidifier::draw_actuator(sf::RenderWindow& window){
     else{
         actuator.setFillColor(sf::Color::Cyan);
     }
+    title.setString("D\nh\nu\nm");
+    window.draw(title);
     window.draw(actuator);
 }
 
@@ -66,6 +70,9 @@ void Heater::draw_actuator(sf::RenderWindow& window){
     else{
         actuator.setFillColor(sf::Color::Cyan);
     }
+
+    title.setString("H\ne\na\nt");
+    window.draw(title);
     window.draw(actuator);
 
 }
@@ -88,6 +95,8 @@ void Cooler::draw_actuator(sf::RenderWindow& window){
     else{
         actuator.setFillColor(sf::Color::Cyan);
     }
+    title.setString("C\no\no\nl");
+    window.draw(title);
     window.draw(actuator);
 
 }

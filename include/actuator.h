@@ -9,6 +9,8 @@ class Actuator
 protected:
 
     sf::RectangleShape actuator;
+    sf::Text title;
+    sf::Font font;
     bool actuator_state = false;
     int power;
     bool get_state(){return actuator_state;};
