@@ -2,7 +2,6 @@
 #include<math.h>
 #include<vector>
 #include<Windows.h>
-//#include<unistd.h>
 
 #include<SFML/Graphics.hpp>
 #include<SFML/Window.hpp>
@@ -37,8 +36,8 @@ int main(int argc, char const *argv[])
 {   
 //setup
 
-    // time element used to delay the program
-    unsigned int microseconds = 250;
+    // time element used to delay the program (unit milliseconds)
+    float sleeptime = 100;
 
     //create greenhouse
     std::vector<float> greenhouse_info{230,95,300};
@@ -206,8 +205,7 @@ int main(int argc, char const *argv[])
         window.display();
 
         // delay the loop to slow it down
-        //usleep(microseconds);
-        Sleep(microseconds);
+        Sleep(sleeptime);
 
     }
     return 0;

@@ -17,7 +17,7 @@ private:
     sf::RectangleShape roof1;
 
 public:
-    Greenhouse_graphics(std::vector<float> geenhouse_data);
+    Greenhouse_graphics(std::vector<float> greenhouse_info);
     void draw(sf::RenderWindow& window);
 };
 
