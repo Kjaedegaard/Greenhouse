@@ -1,7 +1,8 @@
 #include<iostream>
 #include<math.h>
 #include<vector>
-#include<unistd.h>
+#include<Windows.h>
+//#include<unistd.h>
 
 #include<SFML/Graphics.hpp>
 #include<SFML/Window.hpp>
@@ -37,7 +38,7 @@ int main(int argc, char const *argv[])
 //setup
 
     // time element used to delay the program
-    unsigned int microseconds = 250000;
+    unsigned int microseconds = 250;
 
     //create greenhouse
     std::vector<float> greenhouse_info{230,95,300};
@@ -62,7 +63,7 @@ int main(int argc, char const *argv[])
 
     // initialize the font by loading the font file placed in the build file
     sf::Font font;
-    if(!font.loadFromFile("Digitalt.ttf")){
+    if(!font.loadFromFile("${workspaceFolder}\\res\\fonts\\Digitalt.ttf")){
         std::cout << "Error loading font";
     }
     
@@ -205,8 +206,8 @@ int main(int argc, char const *argv[])
         window.display();
 
         // delay the loop to slow it down
-        usleep(microseconds);
-        //sleep(1);
+        //usleep(microseconds);
+        Sleep(microseconds);
 
     }
     return 0;

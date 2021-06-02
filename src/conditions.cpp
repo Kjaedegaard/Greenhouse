@@ -1,7 +1,8 @@
 #include<sensor_sim.h>
 #include<iostream>
 #include<ctime>
-#include<unistd.h>
+#include<Windows.h>
+//#include<unistd.h>
 #include<conditions.h>
 
 Condition::Condition(double start_value, double change_factor){

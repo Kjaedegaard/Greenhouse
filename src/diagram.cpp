@@ -11,7 +11,7 @@ Diagram::Diagram(std::vector<float> diagram_positions, int diagram_number, std::
     m_unit = unit;
     
     //load the font
-    if(!m_font.loadFromFile("Digitalt.ttf")){
+    if(!m_font.loadFromFile("res\\fonts\\Digitalt.ttf")){
         std::cout << "Error loading font";
     }
 
