@@ -62,7 +62,7 @@ int main(int argc, char const *argv[])
 
     // initialize the font by loading the font file placed in the build file
     sf::Font font;
-    if(!font.loadFromFile("${workspaceFolder}\\res\\fonts\\Digitalt.ttf")){
+    if(!font.loadFromFile("Digitalt.ttf")){
         std::cout << "Error loading font";
     }
     
